@@ -789,7 +789,7 @@ button {
           flex: 1;
 }
 
-#footer .copyright {
+#footer .footer-bottom {
   position: relative;
   background-color: #00aae4;
   height: 80px;
@@ -801,7 +801,7 @@ button {
           align-items: center;
 }
 
-#footer .copyright .copyright-content {
+#footer .footer-bottom .footer-bottom-content {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -814,22 +814,22 @@ button {
           justify-content: space-between;
 }
 
-#footer .copyright .left span {
+#footer .footer-bottom .left span {
   margin-right: 20px;
 }
 
-#footer .copyright .left a {
+#footer .footer-bottom .left a {
   font-size: 0.75rem;
   font-weight: 500;
   opacity: 0.5;
   color: #fff;
 }
 
-#footer .copyright .left a:hover {
+#footer .footer-bottom .left a:hover {
   opacity: 0.8;
 }
 
-#footer .copyright .right {
+#footer .footer-bottom .right {
   color: #fff;
   font-size: 0.75rem;
 }
