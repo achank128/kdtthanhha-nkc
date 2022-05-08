@@ -1,0 +1,89 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-bottom: 1px solid $gray-border-color;
+  background-color: $white-color;
+  .navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav-left {
+      .logo-img {
+        width: 80px;
+      }
+    }
+    .nav-right {
+    }
+    .menu {
+      display: flex;
+      li {
+        margin-left: 16px;
+        position: relative;
+        list-style: none;
+        .nav-item {
+          cursor: pointer;
+          text-transform: uppercase;
+          font-weight: 700;
+          padding: 0 4px 8px 4px;
+          transition: all 75ms linear;
+        }
+        .nav-item:hover,
+        .selected {
+          border-bottom: 3px solid $blue-color;
+        }
+
+        i {
+          color: $gray-color;
+          font-size: $font-xsm;
+        }
+
+        .introduce-box,
+        .project-box {
+          display: none;
+          position: absolute;
+          top: 120%;
+          left: -10%;
+          width: 240px;
+          border: 2px solid $gray-border-color;
+          background-color: $white-color;
+          z-index: 10;
+          .content {
+            padding: 16px 20px;
+          }
+          .item {
+            padding: 8px 0;
+            display: block;
+            color: $gray-color;
+            border-bottom: 1px solid $gray-border-color;
+
+            &:last-child {
+              border: none;
+            }
+            &:hover {
+              color: $blue-color;
+            }
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            left: 20%;
+            top: -8px;
+            height: 14px;
+            width: 14px;
+            background-color: $white-color;
+            transform: rotate(45deg);
+            border-top: 2px solid $gray-border-color;
+            border-left: 2px solid $gray-border-color;
+          }
+        }
+        .project-box {
+          left: -36%;
+        }
+      }
+    }
+  }
+}

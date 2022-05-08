@@ -1,0 +1,20 @@
+@mixin btnSlide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 50px;
+  background-color: rgba(246, 246, 246, 0.75);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.25s ease-out;
+  z-index: 1;
+  &:hover {
+    color: $white-color;
+    background-color: rgba(146, 145, 145, 0.75);
+  }
+  i {
+    font-size: $font-med;
+    opacity: 0.6;
+  }
+}

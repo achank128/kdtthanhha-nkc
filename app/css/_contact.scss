@@ -1,0 +1,30 @@
+#contact {
+  padding: 20px 0;
+  margin-bottom: 50px;
+  .contact-title {
+    color: $darkblue-color;
+    margin-bottom: 20px;
+  }
+  .name {
+    font-size: $font-sm;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  li {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .hotline {
+    color: $red-color;
+  }
+  .mail {
+    font-style: italic;
+    color: $gray-color;
+  }
+  .website {
+    color: $gray-color;
+  }
+  .facebook {
+    color: #3578e5;
+  }
+}
