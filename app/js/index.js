@@ -1,9 +1,30 @@
+import { NewsListData } from "./data.js";
 const slider = document.querySelector(".slider");
 const sliderContent = slider.querySelector(".slider-content");
 const slidePrev = slider.querySelector(".slide-prev");
 const slideNext = slider.querySelector(".slide-next");
 const dotContainer = slider.querySelector(".dot-container");
-const sliderData = [1, 2, 3, 4];
+sliderContent.innerHTML = NewsListData.map((newItem, index) => {
+  return `
+  <div class="slide-img-${index}">
+    <a
+      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
+    >
+      <div class="img">
+        <img
+          src="${newItem.img}"
+          alt=""
+        />
+      </div>
+      <div class="title">
+        <h4>
+        ${newItem.title}
+        </h4>
+      </div>
+    </a>
+  </div>
+  `;
+}).join("");
 
 slider.addEventListener("mouseenter", () => {
   slidePrev.classList.add("prev-active");
@@ -14,11 +35,9 @@ slider.addEventListener("mouseleave", () => {
   slideNext.classList.remove("next-active");
 });
 
-dotContainer.innerHTML = sliderData
-  .map((slider, index) => {
-    return `<div class="dot dot${index}"></div>`;
-  })
-  .join("");
+dotContainer.innerHTML = NewsListData.map((slider, index) => {
+  return `<div class="dot dot${index}"></div>`;
+}).join("");
 const dots = slider.querySelectorAll(".dot");
 
 let slideIndex = 0;
@@ -44,10 +63,10 @@ const carousel = () => {
 };
 
 const autoShow = () => {
-  if (slideIndex < sliderData.length) {
+  if (slideIndex < NewsListData.length) {
     slideIndex++;
   }
-  if (slideIndex === sliderData.length) {
+  if (slideIndex === NewsListData.length) {
     slideIndex = 0;
   }
   carousel();
@@ -58,7 +77,7 @@ setInterval(autoShow, 4000);
 slidePrev.addEventListener("click", () => {
   slideIndex--;
   if (slideIndex < 0) {
-    slideIndex = sliderData.length - 1;
+    slideIndex = NewsListData.length - 1;
   }
   carousel();
   resetDot();
@@ -66,9 +85,56 @@ slidePrev.addEventListener("click", () => {
 
 slideNext.addEventListener("click", () => {
   slideIndex++;
-  if (slideIndex > sliderData.length - 1) {
+  if (slideIndex > NewsListData.length - 1) {
     slideIndex = 0;
   }
   carousel();
   resetDot();
 });
+
+//news
+const NewsList = document.querySelector(".news-list");
+NewsList.innerHTML = NewsListData.map((news) => {
+  return `
+  <div class="news-item">
+    <a href=${news.link}>
+      <div class="news-img">
+        <img
+          src=${news.img}
+          alt="news"
+        />
+      </div>
+      <div class="news-content">
+        <span>TIN TỨC</span>
+        <div class="news-title">
+          ${news.title}
+        </div>
+        <p class="news-desc">
+          ${news.desc}
+        </p>
+      </div>
+    </a>
+  </div>`;
+}).join("");
+//news-event
+const NewsEvent = document.querySelector(".news-event-list");
+NewsEvent.innerHTML = NewsListData.map((news) => {
+  return `
+  <a href=${news.link}>
+  <div class="news-event-item">
+    <div class="news-event-img">
+      <img
+        src=${news.img}
+        alt="news"
+      />
+    </div>
+    <div class="news-content">
+      <div class="news-title">
+        ${news.title}
+      </div>
+      <span>TIN TỨC</span>
+    </div>
+  </div>
+</a>
+  `;
+}).join("");

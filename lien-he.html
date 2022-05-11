@@ -19,7 +19,7 @@
       href="./fontawesome-free-6.1.1-web/css/all.min.css"
     />
     <link rel="stylesheet" href="./app/css/style.css" />
-    <title>Khu Đô Thị Thanh Hà Cienco 5</title>
+    <title>LIÊN HỆ | Khu Đô Thị Thanh Hà Cienco 5</title>
   </head>
   <body>
     <header id="header">
@@ -38,71 +38,62 @@
 
           <div class="nav-right">
             <ul class="menu">
-              <li>
+              <li class="home">
                 <a href="./index.html" class="nav-item"> Trang Chủ </a>
               </li>
 
               <li class="introduce">
-                <a href="./gioi-thieu.html" class="nav-item">
-                  Giới Thiệu <i class="fa-solid fa-angle-down"></i>
-                </a>
-                <div class="introduce-box">
-                  <div class="content">
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Dự Án Thanh Hà</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Mức Phí Chuyển Nhượng</a
-                    >
-                  </div>
-                </div>
+                <a href="./gioi-thieu.html" class="nav-item"> Giới Thiệu </a>
               </li>
 
               <li class="project">
-                <a href="./du-an.html" class="nav-item">
-                  Dự Án <i class="fa-solid fa-angle-down"></i
-                ></a>
-                <div class="project-box">
-                  <div class="content">
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Dự Án Thanh Hà</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >BĐS Tây Nam</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Mức Phí Chuyển Nhượng</a
-                    >
-                  </div>
-                </div>
+                <a href="./du-an.html" class="nav-item"> Dự Án </a>
               </li>
 
               <li class="news">
                 <a href="./tin-tuc.html" class="nav-item"> Tin Tức </a>
               </li>
 
-              <li class="contact">
-                <a href="./lien-he.html" class="nav-item selected"> Liên Hệ </a>
+              <li class="contact selected">
+                <a href="./lien-he.html" class="nav-item"> Liên Hệ </a>
               </li>
             </ul>
           </div>
+          <div class="nav-right-mobile">
+            <button class="sidebar-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
         </div>
       </div>
+      <div id="overlay"></div>
+      <aside id="sidebar">
+        <div class="sidebar-content">
+          <button class="close-sidebar">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="sidebar-item">
+            <a href="./index.html">TRANG CHỦ</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./gioi-thieu.html">GIỚI THIỆU</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./du-an.html">DỰ ÁN</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./tin-tuc.html">TIN TỨC</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./lien-he.html"> LIÊN HỆ </a>
+          </div>
+        </div>
+      </aside>
     </header>
 
     <div id="main">
-      <div class="container">
-        <div id="contact">
+      <div id="contact">
+        <div class="container">
           <div class="contact-title">
             <h2>Liên hệ</h2>
           </div>
@@ -190,7 +181,7 @@
     <button id="back-to-top">
       <i class="fa-solid fa-angle-up"></i>
     </button>
-    <div class="contact-info">
+    <div id="contact-info">
       <button class="zalo-chat"><a href="#">Chat Zalo</a></button>
       <button class="fb-chat"><a href="#">Chat Facebook</a></button>
       <button class="hotline"><a href="#">Hotline: 0969630128</a></button>

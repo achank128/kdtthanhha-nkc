@@ -38,53 +38,16 @@
 
           <div class="nav-right">
             <ul class="menu">
-              <li>
-                <a href="./index.html" class="nav-item selected"> Trang Chủ </a>
+              <li class="home selected">
+                <a href="./index.html" class="nav-item"> Trang Chủ </a>
               </li>
 
               <li class="introduce">
-                <a href="./gioi-thieu.html" class="nav-item">
-                  Giới Thiệu <i class="fa-solid fa-angle-down"></i>
-                </a>
-                <div class="introduce-box">
-                  <div class="content">
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Dự Án Thanh Hà</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Mức Phí Chuyển Nhượng</a
-                    >
-                  </div>
-                </div>
+                <a href="./gioi-thieu.html" class="nav-item"> Giới Thiệu </a>
               </li>
 
               <li class="project">
-                <a href="./du-an.html" class="nav-item">
-                  Dự Án <i class="fa-solid fa-angle-down"></i
-                ></a>
-                <div class="project-box">
-                  <div class="content">
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Dự Án Thanh Hà</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >BĐS Tây Nam</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Mức Phí Chuyển Nhượng</a
-                    >
-                  </div>
-                </div>
+                <a href="./du-an.html" class="nav-item"> Dự Án </a>
               </li>
 
               <li class="news">
@@ -96,16 +59,44 @@
               </li>
             </ul>
           </div>
+          <div class="nav-right-mobile">
+            <button class="sidebar-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
         </div>
       </div>
+      <div id="overlay"></div>
+      <aside id="sidebar">
+        <div class="sidebar-content">
+          <button class="close-sidebar">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="sidebar-item">
+            <a href="./index.html">TRANG CHỦ</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./gioi-thieu.html">GIỚI THIỆU</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./du-an.html">DỰ ÁN</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./tin-tuc.html">TIN TỨC</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./lien-he.html"> LIÊN HỆ </a>
+          </div>
+        </div>
+      </aside>
     </header>
 
     <main id="main">
-      <div class="container">
-        <div id="home">
-          <div class="homecenter">
-            <!-- Slider -->
-            <section class="slider">
+      <div id="home">
+        <!-- Slider -->
+        <section class="sider-container container">
+          <div class="left">
+            <div class="slider">
               <button class="slide-prev">
                 <i class="fa-solid fa-angle-left"></i>
               </button>
@@ -125,7 +116,7 @@
                   >
                     <div class="img">
                       <img
-                        src="https://tuyenmai.com/wp-content/uploads/2019/09/khu-do-thi-thanh-ha-768x531.jpg"
+                        src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
                         alt=""
                       />
                     </div>
@@ -143,7 +134,7 @@
                   >
                     <div class="img">
                       <img
-                        src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
+                        src="https://tuyenmai.com/wp-content/uploads/2019/09/cong-vien-nuoc-khu-do-thi-thanh-ha-768x432.jpg"
                         alt="news"
                       />
                     </div>
@@ -193,283 +184,259 @@
                   </a>
                 </div>
               </div>
-            </section>
-            <!-- News -->
-            <section class="news-container">
-              <div class="title">
-                <h2>
-                  <i class="fa-solid fa-angle-down"></i>Tin Tức Bất Động Sản
-                </h2>
-              </div>
-              <div class="news-list">
-                <div class="news-item">
-                  <a
-                    href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                  >
-                    <div class="news-img">
-                      <img
-                        src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                        alt="news"
-                      />
-                    </div>
-                    <div class="news-content">
-                      <span>TIN TỨC</span>
-                      <div class="news-title">
-                        7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                      </div>
-                      <p class="news-desc">
-                        Bất động sản khu đô thị Thanh Hà đang là cái tên hot
-                        trong thị trường bất động sản...
-                      </p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="news-item">
-                  <a
-                    href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                  >
-                    <div class="news-img">
-                      <img
-                        src="https://cienco5land.vn/wp-content/uploads/2021/04/aaaa.png"
-                        alt="news"
-                      />
-                    </div>
-                    <div class="news-content">
-                      <span>TIN TỨC</span>
-                      <div class="news-title">
-                        TÀI CHÍNH BAO NHIÊU THÌ MUA ĐƯỢC CHUNG CƯ THANH HÀ
-                        CIENCO 5
-                      </div>
-                      <p class="news-desc">
-                        Bất động sản khu đô thị Thanh Hà đang là cái tên hot
-                        trong thị trường bất động sản...
-                      </p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="news-item">
-                  <a
-                    href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                  >
-                    <div class="news-img">
-                      <img
-                        src="https://cienco5land.vn/wp-content/uploads/2021/06/118-257x300.jpg"
-                        alt="news"
-                      />
-                    </div>
-                    <div class="news-content">
-                      <span>TIN TỨC</span>
-                      <div class="news-title">
-                        VỊ TRÍ KHU ĐÔ THỊ THANH HÀ – CHỦ ĐẦU TƯ TẬP ĐOÀN MƯỜNG
-                        THANH
-                      </div>
-                      <p class="news-desc">
-                        Bất động sản khu đô thị Thanh Hà đang là cái tên hot
-                        trong thị trường bất động sản...
-                      </p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="news-item">
-                  <a
-                    href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                  >
-                    <div class="news-img">
-                      <img
-                        src="https://cienco5land.vn/wp-content/uploads/2021/06/113-1-300x225.jpg"
-                        alt="news"
-                      />
-                    </div>
-                    <div class="news-content">
-                      <span>TIN TỨC</span>
-                      <div class="news-title">
-                        TÌM HIỂU CHỦ ĐẦU TƯ KHU ĐÔ THỊ THANH HÀ
-                      </div>
-                      <p class="news-desc">
-                        Bất động sản khu đô thị Thanh Hà đang là cái tên hot
-                        trong thị trường bất động sản...
-                      </p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="news-item">
-                  <a
-                    href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                  >
-                    <div class="news-img">
-                      <img
-                        src="https://cienco5land.vn/wp-content/uploads/2021/06/116-1-300x192.jpg"
-                        alt="news"
-                      />
-                    </div>
-                    <div class="news-content">
-                      <span>TIN TỨC</span>
-                      <div class="news-title">
-                        7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                      </div>
-                      <p class="news-desc">
-                        Bất động sản khu đô thị Thanh Hà đang là cái tên hot
-                        trong thị trường bất động sản...
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </section>
-          </div>
-
-          <div class="rightbar">
-            <div class="info">
-              <div class="img-1">
-                <a href="">
-                  <img
-                    src="https://cienco5land.vn/wp-content/uploads/2019/04/tai-bao-gia-du-an-300x64.png"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div class="img-2">
-                <a href="">
-                  <img
-                    src="https://cienco5land.vn/wp-content/uploads/2019/04/thong-tin-uu-dai-300x64.png"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div class="img-3">
-                <a href="">
-                  <img
-                    src="https://cienco5land.vn/wp-content/uploads/2022/03/f691e511a37a6c24356b.jpg"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div class="contact">Liên hệ Hotline</div>
             </div>
-            <div class="news-rightbar">
-              <div class="news-item">
-                <a
-                  href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                >
-                  <div class="news-img">
+          </div>
+          <div class="right">
+            <div class="introduce-info">
+              <div class="introduce-info-title">
+                <h4>
+                  <i class="fa-solid fa-location-dot"></i> KHU ĐÔ THỊ THANH HÀ
+                </h4>
+              </div>
+              <div class="introduce-info-content">
+                <ul>
+                  <li><b>Tên dự án:</b>Khu đô thị Thanh Hà Cienco 5</li>
+                  <li><b>Chủ đầu tư: </b>Tập đoàn Mường Thanh</li>
+                  <li>
+                    <b>Vị trí dự án: </b>Điểm giao lưu giữa các huyện Thanh Oai,
+                    Ứng Hòa, Phú Xuyên đến trung tâm thành phố Hà Nội
+                  </li>
+                  <li>
+                    <b>Đơn vị thiết kế: </b>Công ty cổ phần tư vấn đầu tư GLOPAN
+                  </li>
+                  <li><b>Đơn vị thi công: </b>Tổng công ty Cienco 5</li>
+                  <li><b>Tổng mức đầu tư: </b>Trên 18000 tỷ đồng</li>
+                  <li><b>Tổng diện tích quy hoạch: </b>420ha</li>
+                  <li><b>Diện tích xây dựng quy hoạch:</b>30%</li>
+                  <li>
+                    <b>Phân khu: </b>Khu đô thị Mỹ Hưng, Khu đô thị Thanh Hà A
+                    và Khu đô thị Thanh Hà B
+                  </li>
+                  <li>
+                    <b>Loại hình sản phẩm: </b>Liền kề, biệt thự và chung cư
+                  </li>
+                  <li>
+                    <b>Diện tích công viên, vỉa hè, cây xanh quy hoạch: </b
+                    >294ha
+                  </li>
+                  <li><b>Hình thức sở hữu: </b> Sổ hồng, vĩnh viễn</li>
+                  <li><b>Thời gian khởi công: </b> 2008</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- News -->
+        <section class="news-container container">
+          <div class="title">
+            <h2><i class="fa-solid fa-angle-down"></i>Tin Tức Bất Động Sản</h2>
+          </div>
+          <div class="news-list"></div>
+        </section>
+        <!-- product -->
+        <section class="product-container">
+          <div class="wrapper">
+            <div class="title">
+              <h3>CÁC DÒNG SẢN PHẨM TẠI KHU ĐÔ THỊ THANH HÀ</h3>
+            </div>
+            <div class="content container">
+              <div class="product-item">
+                <div class="product-img">
+                  <img
+                    src="https://khudothithanhha.vn/wp-content/uploads/2021/05/Lien-ke-thanh-ha-cienco-5-02-1024x576.jpg"
+                    alt="product"
+                  />
+                </div>
+                <div class="product-name">LIỀN KỀ THANH HÀ CIENCO 5</div>
+                <div class="product-info">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Giá: 3,5 – 8 tỷ/lô Tiền
+                      đất + Xây thô 8,6 triệu/m2
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Diện tích: 75m2 – 95m2 –
+                      100m2
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Mặt tiền đường: 14m
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Mật độ xây dựng: 70% xây
+                      4,5 tầng
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Diện tích sàn xây dựng:
+                      350m2
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="product-img">
+                  <img
+                    src="https://khudothithanhha.vn/wp-content/uploads/2021/08/shophouse-thanh-ha-cienco-5-1024x682.jpg"
+                    alt="product"
+                  />
+                </div>
+                <div class="product-name">SHOPHOUSE THANH HÀ CIENCO 5</div>
+                <div class="product-info">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Giá: 11 - 27 tỷ/lô tiền
+                      đất + Xây thô 8,6 triệu/m2
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Diện tích: 100m2 – 300m2
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Mặt tiền đường: 50m
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Mật độ xây dựng: 70% xây
+                      7 tầng
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Diện tích sàn xây dựng:
+                      450m2
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="product-img">
+                  <img
+                    src="https://khudothithanhha.vn/wp-content/uploads/2021/08/biet-thu-thanh-ha-cienco-5.png"
+                    alt="product"
+                  />
+                </div>
+                <div class="product-name">BIỆT THỰ THANH HÀ CIENCO 5</div>
+                <div class="product-info">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Giá: 8 - 30 tỷ/lô tiền
+                      đất + xây thô 8,6 triệu/m2
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Diện tích: 200m2 - 500m2
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Mặt tiền đường: 14m
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Mật độ xây dựng: 50% xây
+                      3,5 tầng
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-crown"></i>Diện tích sàn xây dựng:
+                      468m2 - 500m2
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Extend -->
+        <section class="extend-container container">
+          <div class="news-event">
+            <div class="news-event-title">Tin Tức - Sự Kiện</div>
+            <div class="news-event-list">
+              <a
+                href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
+              >
+                <div class="news-event-item">
+                  <div class="news-event-img">
                     <img
                       src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
                       alt="news"
                     />
                   </div>
                   <div class="news-content">
-                    <span>TIN TỨC</span>
                     <div class="news-title">
                       7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
                     </div>
+                    <span>TIN TỨC</span>
                   </div>
-                </a>
-              </div>
+                </div>
+              </a>
+
+              <a
+                href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
+              >
+                <div class="news-event-item">
+                  <div class="news-event-img">
+                    <img
+                      src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
+                      alt="news"
+                    />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-title">
+                      7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
+                    </div>
+                    <span>TIN TỨC</span>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
+              >
+                <div class="news-event-item">
+                  <div class="news-event-img">
+                    <img
+                      src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
+                      alt="news"
+                    />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-title">
+                      7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
+                    </div>
+                    <span>TIN TỨC</span>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
+              >
+                <div class="news-event-item">
+                  <div class="news-event-img">
+                    <img
+                      src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
+                      alt="news"
+                    />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-title">
+                      7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
+                    </div>
+                    <span>TIN TỨC</span>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
+              >
+                <div class="news-event-item">
+                  <div class="news-event-img">
+                    <img
+                      src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
+                      alt="news"
+                    />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-title">
+                      7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
+                    </div>
+                    <span>TIN TỨC</span>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-        </div>
-        <!-- Extend -->
-        <div class="extend">
-          <div class="news-event">
-            <div class="news-event-title">Tin Tức - Sự Kiện</div>
-            <a
-              href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-            >
-              <div class="news-event-item">
-                <div class="news-event-img">
-                  <img
-                    src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                    alt="news"
-                  />
-                </div>
-                <div class="news-content">
-                  <div class="news-title">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                  <span>TIN TỨC</span>
-                </div>
-              </div>
-            </a>
-
-            <a
-              href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-            >
-              <div class="news-event-item">
-                <div class="news-event-img">
-                  <img
-                    src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                    alt="news"
-                  />
-                </div>
-                <div class="news-content">
-                  <div class="news-title">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                  <span>TIN TỨC</span>
-                </div>
-              </div>
-            </a>
-
-            <a
-              href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-            >
-              <div class="news-event-item">
-                <div class="news-event-img">
-                  <img
-                    src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                    alt="news"
-                  />
-                </div>
-                <div class="news-content">
-                  <div class="news-title">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                  <span>TIN TỨC</span>
-                </div>
-              </div>
-            </a>
-
-            <a
-              href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-            >
-              <div class="news-event-item">
-                <div class="news-event-img">
-                  <img
-                    src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                    alt="news"
-                  />
-                </div>
-                <div class="news-content">
-                  <div class="news-title">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                  <span>TIN TỨC</span>
-                </div>
-              </div>
-            </a>
-
-            <a
-              href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-            >
-              <div class="news-event-item">
-                <div class="news-event-img">
-                  <img
-                    src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                    alt="news"
-                  />
-                </div>
-                <div class="news-content">
-                  <div class="news-title">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                  <span>TIN TỨC</span>
-                </div>
-              </div>
-            </a>
           </div>
           <div class="intro">
             <div class="intro-content">
@@ -491,7 +458,9 @@
             <span class="hotline">Hotline: 096.963.0128</span>
           </div>
           <div class="map">
-            <div class="map-title">Vị Trí Văn Phòng</div>
+            <div class="map-title">
+              <i class="fa-solid fa-map-location-dot"></i>Vị Trí Văn Phòng
+            </div>
             <iframe
               class="google-map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7165642099844!2d105.82028221411043!3d20.9638945953673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acfdf83d6ac1%3A0x44c0a5eeddaf1ac0!2zUmljZSBDaXR5IExpbmggxJDDoG0gLSBUw7JhIELhuq9jLCBIb8OgbmcgTGnhu4d0LCBIb8OgbmcgTWFpLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1651841688748!5m2!1svi!2s"
@@ -503,7 +472,7 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </div>
+        </section>
       </div>
     </main>
 
@@ -570,7 +539,7 @@
     <button id="back-to-top">
       <i class="fa-solid fa-angle-up"></i>
     </button>
-    <div class="contact-info">
+    <div id="contact-info">
       <button class="zalo-chat"><a href="#">Chat Zalo</a></button>
       <button class="fb-chat"><a href="#">Chat Facebook</a></button>
       <button class="hotline"><a href="#">Hotline: 0969630128</a></button>

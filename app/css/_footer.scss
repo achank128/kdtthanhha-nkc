@@ -1,11 +1,14 @@
 #footer {
   background-color: $gray-bg-color;
   border-top: 4px solid $blue-color;
-
   .footer-content {
     padding: 40px 0;
     display: flex;
     gap: 30px;
+    @include mobile {
+      gap: 10px;
+      text-align: center;
+    }
   }
   .title {
     font-size: $font-med;
@@ -58,6 +61,9 @@
       justify-content: space-between;
     }
     .left {
+      @include mobile {
+        display: none;
+      }
       span {
         margin-right: 20px;
       }

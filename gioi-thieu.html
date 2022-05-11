@@ -19,7 +19,7 @@
       href="./fontawesome-free-6.1.1-web/css/all.min.css"
     />
     <link rel="stylesheet" href="./app/css/style.css" />
-    <title>Khu Đô Thị Thanh Hà Cienco 5</title>
+    <title>GIỚI THIỆU | Khu Đô Thị Thanh Hà Cienco 5</title>
   </head>
   <body>
     <header id="header">
@@ -38,53 +38,16 @@
 
           <div class="nav-right">
             <ul class="menu">
-              <li>
+              <li class="home">
                 <a href="./index.html" class="nav-item"> Trang Chủ </a>
               </li>
 
-              <li class="introduce">
-                <a href="./gioi-thieu.html" class="nav-item selected">
-                  Giới Thiệu <i class="fa-solid fa-angle-down"></i>
-                </a>
-                <div class="introduce-box">
-                  <div class="content">
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Dự Án Thanh Hà</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Mức Phí Chuyển Nhượng</a
-                    >
-                  </div>
-                </div>
+              <li class="introduce selected">
+                <a href="./gioi-thieu.html" class="nav-item"> Giới Thiệu </a>
               </li>
 
               <li class="project">
-                <a href="./du-an.html" class="nav-item">
-                  Dự Án <i class="fa-solid fa-angle-down"></i
-                ></a>
-                <div class="project-box">
-                  <div class="content">
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Dự Án Thanh Hà</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >BĐS Tây Nam</a
-                    >
-                    <a
-                      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-                      class="item"
-                      >Mức Phí Chuyển Nhượng</a
-                    >
-                  </div>
-                </div>
+                <a href="./du-an.html" class="nav-item"> Dự Án </a>
               </li>
 
               <li class="news">
@@ -96,14 +59,42 @@
               </li>
             </ul>
           </div>
+          <div class="nav-right-mobile">
+            <button class="sidebar-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
         </div>
       </div>
+      <div id="overlay"></div>
+      <aside id="sidebar">
+        <div class="sidebar-content">
+          <button class="close-sidebar">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="sidebar-item">
+            <a href="./index.html">TRANG CHỦ</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./gioi-thieu.html">GIỚI THIỆU</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./du-an.html">DỰ ÁN</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./tin-tuc.html">TIN TỨC</a>
+          </div>
+          <div class="sidebar-item">
+            <a href="./lien-he.html"> LIÊN HỆ </a>
+          </div>
+        </div>
+      </aside>
     </header>
 
     <div id="main">
-      <div class="container">
-        <div id="introduce" class="wrapper">
-          <article class="introduce-content left-content">
+      <div id="introduce">
+        <div class="container">
+          <article class="introduce-content">
             <div class="introduce-title">
               <h2>Giới thiệu</h2>
             </div>
@@ -369,7 +360,9 @@
               <li><b>Website</b> https://cienco5land.vn</li>
             </ul>
             <div class="map">
-              <div class="map-title">Vị Trí Văn Phòng</div>
+              <div class="map-title">
+                <i class="fa-solid fa-map-location-dot"></i>Vị Trí Văn Phòng
+              </div>
               <iframe
                 class="google-map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7165642099844!2d105.82028221411043!3d20.9638945953673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acfdf83d6ac1%3A0x44c0a5eeddaf1ac0!2zUmljZSBDaXR5IExpbmggxJDDoG0gLSBUw7JhIELhuq9jLCBIb8OgbmcgTGnhu4d0LCBIb8OgbmcgTWFpLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1651841688748!5m2!1svi!2s"
@@ -382,94 +375,6 @@
               ></iframe>
             </div>
           </article>
-
-          <div class="rightbar">
-            <div class="info">
-              <div class="img-1">
-                <a href="">
-                  <img
-                    src="https://cienco5land.vn/wp-content/uploads/2019/04/tai-bao-gia-du-an-300x64.png"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div class="img-2">
-                <a href="">
-                  <img
-                    src="https://cienco5land.vn/wp-content/uploads/2019/04/thong-tin-uu-dai-300x64.png"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div class="img-3">
-                <a href="">
-                  <img
-                    src="https://cienco5land.vn/wp-content/uploads/2022/03/f691e511a37a6c24356b.jpg"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div class="contact">Liên hệ Hotline</div>
-            </div>
-            <div class="new-posts">
-              <div class="new-posts-title">Bài viết mới</div>
-              <a href="">
-                <div class="posts-item">
-                  <div class="img-item">
-                    <img
-                      src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                      alt="news"
-                    />
-                  </div>
-                  <div class="name">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                </div>
-              </a>
-
-              <a href="">
-                <div class="posts-item">
-                  <div class="img-item">
-                    <img
-                      src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                      alt="news"
-                    />
-                  </div>
-                  <div class="name">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                </div>
-              </a>
-
-              <a href="">
-                <div class="posts-item">
-                  <div class="img-item">
-                    <img
-                      src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                      alt="news"
-                    />
-                  </div>
-                  <div class="name">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                </div>
-              </a>
-
-              <a href="">
-                <div class="posts-item">
-                  <div class="img-item">
-                    <img
-                      src="https://tuyenmai.com/wp-content/uploads/2019/09/review-khu-do-thi-thanh-ha.jpg"
-                      alt="news"
-                    />
-                  </div>
-                  <div class="name">
-                    7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -536,7 +441,7 @@
     <button id="back-to-top">
       <i class="fa-solid fa-angle-up"></i>
     </button>
-    <div class="contact-info">
+    <div id="contact-info">
       <button class="zalo-chat"><a href="#">Chat Zalo</a></button>
       <button class="fb-chat"><a href="#">Chat Facebook</a></button>
       <button class="hotline"><a href="#">Hotline: 0969630128</a></button>

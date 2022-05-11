@@ -1,3 +1,14 @@
+@mixin mobile {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
 @mixin btnSlide {
   position: absolute;
   top: 50%;
@@ -5,7 +16,6 @@
   width: 30px;
   height: 50px;
   background-color: rgba(246, 246, 246, 0.75);
-  visibility: hidden;
   opacity: 0;
   transition: all 0.25s ease-out;
   z-index: 1;

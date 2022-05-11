@@ -3,19 +3,26 @@
   padding: 20px 0;
   margin-bottom: 50px;
   .news-head-title {
-    color: $darkblue-color;
+    color: $blue-color;
     margin-bottom: 20px;
   }
-  .news-container {
-    width: 75%;
+  .news-content {
+    padding-bottom: 40px;
     .news-list {
+      border-bottom: 2px solid $blue-color;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-gap: 30px;
+      @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include mobile {
+        grid-template-columns: repeat(1, 1fr);
+      }
     }
     .news-item {
       .news-img {
-        height: 200px;
+        height: 220px;
         img {
           width: 100%;
           height: 100%;
@@ -45,9 +52,55 @@
         }
       }
     }
-    .google-map {
-      width: 300px;
-      height: 500px;
+  }
+  .extend-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    @include mobile {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #e5f7f8;
+      border: 1px dashed $blue-color;
+      border-radius: 4px;
+      text-align: center;
+      padding: 20px 10px;
+      .intro-title {
+        font-size: $font-med;
+        font-weight: 500;
+        color: $blue-color;
+        margin-bottom: 16px;
+      }
+      .hotline {
+        color: red;
+        font-weight: 500;
+      }
+    }
+    .map {
+      background-color: #e5f7f8;
+      border: 1px dashed $blue-color;
+      border-radius: 4px;
+
+      .map-title {
+        font-size: $font-lg;
+        color: $blue-color;
+        padding: 10px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 10px;
+        i {
+          margin-right: 6px;
+        }
+      }
+      .google-map {
+        width: 100%;
+      }
     }
   }
 }
