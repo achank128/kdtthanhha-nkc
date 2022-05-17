@@ -27,4 +27,7 @@
     font-size: $font-med;
     opacity: 0.6;
   }
+  @include tablet {
+    opacity: 1;
+  }
 }

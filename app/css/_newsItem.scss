@@ -8,6 +8,7 @@
     .title-main {
       color: $blue-color;
       margin-bottom: 10px;
+      text-transform: uppercase;
     }
     .title-lv1 {
       margin-top: -80px;
@@ -48,13 +49,17 @@
     .img {
       width: 100%;
       margin-bottom: 20px;
-      .img-text {
-        padding: 6px;
-        margin-top: -6px;
-        text-align: center;
-        font-size: $font-sm;
-        background-color: $gray-bg-color;
-      }
+    }
+    .img-text {
+      padding: 6px;
+      margin-top: -6px;
+      text-align: center;
+      font-size: $font-sm;
+      background-color: $gray-bg-color;
+    }
+    .img-sm {
+      width: 70%;
+      margin: 20px auto;
     }
     .list {
       margin-bottom: 20px;

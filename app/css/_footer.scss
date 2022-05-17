@@ -14,10 +14,16 @@
     font-size: $font-med;
     font-weight: 700;
     margin-bottom: 16px;
+    @include tablet {
+      font-size: $font-sm;
+    }
   }
   li {
     margin-bottom: 10px;
     font-size: $font-sm;
+    @include tablet {
+      font-size: $font-xsm;
+    }
   }
   .about {
     flex: 1;

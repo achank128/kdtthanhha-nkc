@@ -128,7 +128,7 @@ NewsEvent.innerHTML = NewsListData.map((news) => {
         alt="news"
       />
     </div>
-    <div class="news-content">
+    <div class="news-content-item">
       <div class="news-title">
         ${news.title}
       </div>

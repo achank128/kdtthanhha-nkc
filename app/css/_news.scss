@@ -7,8 +7,9 @@
     margin-bottom: 20px;
   }
   .news-content {
-    padding-bottom: 40px;
+    margin-bottom: 50px;
     .news-list {
+      padding-bottom: 40px;
       border-bottom: 2px solid $blue-color;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -38,9 +39,12 @@
         border-radius: 2px;
       }
       .news-title {
-        font-size: $font-sm;
+        font-size: $font-med;
+        line-height: 1.2;
+        margin-bottom: 6px;
         color: $blue-color;
         font-weight: 700;
+        text-transform: uppercase;
       }
       .news-desc {
         font-size: $font-xsm;
