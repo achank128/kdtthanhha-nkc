@@ -1,3 +1,8 @@
+const ZALO = "https://zalo.me/562398999";
+const FACEBOOK = "https://www.facebook.com/profile.php?id=100064734504163";
+const PHONE = "0562398999";
+const MAIL = "nguyenvanhung28686@gmail.com";
+
 //back to top
 const btnBackToTop = document.getElementById("back-to-top");
 const scrollFunction = () => {
@@ -18,6 +23,27 @@ const backToTop = () => {
   document.documentElement.scrollTop = 0;
 };
 btnBackToTop.addEventListener("click", backToTop);
+
+//contact
+const zalo = document.getElementById("zalo");
+const facebook = document.getElementById("facebook");
+const phone = document.getElementById("phone");
+const website = document.getElementById("website");
+//footer
+const facebookFooter = document.getElementById("facebook-footer");
+const zaloFoorter = document.getElementById("zalo-footer");
+const mailFooter = document.getElementById("mail-footer");
+const phoneFooter = document.getElementById("phone-footer");
+
+zalo.innerHTML = `<a href=${ZALO}>Chat Zalo</a>`;
+facebook.innerHTML = `<a href=${FACEBOOK}>Chat Facebook</a>`;
+phone.innerHTML = `<a>Hotline: ${PHONE}</a>`;
+
+website.innerHTML = `Website: <a href="#">https://kdtthanhha.com</a>`;
+facebookFooter.innerHTML = ` Faccbook: <a href=${FACEBOOK}><b>Nguyễn Văn Hùng</b></a>`;
+zaloFoorter.innerHTML = `Zalo: <a href="${ZALO}"><b>${PHONE}</b></a>`;
+mailFooter.innerHTML = `Mail: <a ><b>nguyenvanhung28686@gmail.com</b></a>`;
+phoneFooter.innerHTML = `Hotline: ${PHONE}`;
 
 //header
 const header = document.getElementById("header");
