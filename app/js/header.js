@@ -4,6 +4,9 @@ const PHONE = "0562.398.999";
 const PHONECALL = "0562398999";
 const MAIL = "nguyenvanhung28686@gmail.com";
 const MAP = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14906.05517069742!2d105.77527041626236!3d20.931872211441487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad494e8f8521%3A0x9d70aa1dd7ac2e54!2zVGhhbmggSMOgIE3GsOG7nW5nIFRoYW5oIENpZW5jbyA1!5e0!3m2!1svi!2s!4v1657262025127!5m2!1svi!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+const COMPANY = "KDT Thanh Hà - Mường Thanh Cienco 5";
+const ADDRESS =
+  "Khu B1.4, Liền kề 09 VT 23, Khu đô thị Thanh Hà Mường Thanh Cienco 5";
 
 //header
 const header = document.getElementById("header");
@@ -77,12 +80,16 @@ facebook.innerHTML = `<a href=${FACEBOOK}>Chat Facebook</a>`;
 phone.innerHTML = `<a href="tel:${PHONECALL}">Hotline: ${PHONE}</a>`;
 
 //footer
+const companyName = document.getElementById("company-name");
 const website = document.getElementById("website");
 const facebookFooter = document.getElementById("facebook-footer");
 const zaloFooter = document.getElementById("zalo-footer");
 const mailFooter = document.getElementById("mail-footer");
 const phoneFooter = document.getElementById("phone-footer");
-website.innerHTML = `Website: <a href="#">https://kdtthanhha.com</a>`;
+const addressFooter = document.getElementById("address-footer");
+companyName.innerHTML = COMPANY;
+website.innerHTML = `Website: <a href="#">www.kdtthanhha.com</a>`;
+addressFooter.innerHTML = `VPGD: ${ADDRESS}`;
 facebookFooter.innerHTML = ` Faccbook: <a href=${FACEBOOK}><b>Nguyễn Văn Hùng</b></a>`;
 zaloFooter.innerHTML = `Zalo: <a href="${ZALO}"><b>${PHONE}</b></a>`;
 mailFooter.innerHTML = `Mail: <a ><b>nguyenvanhung28686@gmail.com</b></a>`;

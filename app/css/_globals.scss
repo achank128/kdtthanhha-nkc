@@ -118,24 +118,29 @@ button {
   z-index: 1000;
   button {
     display: block;
+    font-weight: 700;
+    &:hover {
+      transform: scale(1.05);
+      transform-origin: left;
+    }
   }
   a {
     color: $white-color;
   }
   .zalo-chat {
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #3cd6bb;
     border-radius: 20px;
     margin-bottom: 6px;
   }
   .fb-chat {
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #3578e5;
     border-radius: 20px;
     margin-bottom: 6px;
   }
   .hotline {
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #d11a59;
     border-radius: 20px;
     margin-bottom: 6px;

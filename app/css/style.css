@@ -135,6 +135,14 @@ button {
 
 #contact-info button {
   display: block;
+  font-weight: 700;
+}
+
+#contact-info button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 
 #contact-info a {
@@ -142,21 +150,21 @@ button {
 }
 
 #contact-info .zalo-chat {
-  padding: 10px 20px;
+  padding: 12px 20px;
   background-color: #3cd6bb;
   border-radius: 20px;
   margin-bottom: 6px;
 }
 
 #contact-info .fb-chat {
-  padding: 10px 20px;
+  padding: 12px 20px;
   background-color: #3578e5;
   border-radius: 20px;
   margin-bottom: 6px;
 }
 
 #contact-info .hotline {
-  padding: 10px 20px;
+  padding: 12px 20px;
   background-color: #d11a59;
   border-radius: 20px;
   margin-bottom: 6px;
