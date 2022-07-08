@@ -1028,6 +1028,10 @@ button {
           flex: 1;
 }
 
+#footer .social a {
+  color: #ff0000;
+}
+
 #footer .footer-bottom {
   position: relative;
   background-color: #074971;

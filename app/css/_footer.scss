@@ -46,11 +46,8 @@
   }
   .social {
     flex: 1;
-    .facebook {
-    }
-    .zalo {
-    }
-    .mail {
+    a {
+      color: $red-color;
     }
   }
 

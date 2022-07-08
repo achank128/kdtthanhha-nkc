@@ -31,19 +31,29 @@ const phone = document.getElementById("phone");
 const website = document.getElementById("website");
 //footer
 const facebookFooter = document.getElementById("facebook-footer");
-const zaloFoorter = document.getElementById("zalo-footer");
+const zaloFooter = document.getElementById("zalo-footer");
 const mailFooter = document.getElementById("mail-footer");
 const phoneFooter = document.getElementById("phone-footer");
+//
+website.innerHTML = `Website: <a href="#">https://kdtthanhha.com</a>`;
+facebookFooter.innerHTML = ` Faccbook: <a href=${FACEBOOK}><b>Nguyễn Văn Hùng</b></a>`;
+zaloFooter.innerHTML = `Zalo: <a href="${ZALO}"><b>${PHONE}</b></a>`;
+mailFooter.innerHTML = `Mail: <a ><b>nguyenvanhung28686@gmail.com</b></a>`;
+phoneFooter.innerHTML = `Hotline: ${PHONE}`;
+//Lienhe
+// const facebooklh = document.getElementById("facebook-lh");
+// const zalolh = document.getElementById("zalo-lh");
+// const maillh = document.getElementById("mail-lh");
+// const phonelh = document.getElementById("phone-lh");
+// //
+// //facebooklh.innerHTML = `Facebook: <a href=${FACEBOOK} class="facebook">Nguyễn Văn Hùng</a>`;
+// console.log(facebooklh);
+// phonelh.innerHTML = `Hotline: <a href="" class="hotline">${PHONE} </a>`;
+// maillh.innerHTML = `Email: <a href="" class="mail">${MAIL}</a>`;
 
 zalo.innerHTML = `<a href=${ZALO}>Chat Zalo</a>`;
 facebook.innerHTML = `<a href=${FACEBOOK}>Chat Facebook</a>`;
 phone.innerHTML = `<a>Hotline: ${PHONE}</a>`;
-
-website.innerHTML = `Website: <a href="#">https://kdtthanhha.com</a>`;
-facebookFooter.innerHTML = ` Faccbook: <a href=${FACEBOOK}><b>Nguyễn Văn Hùng</b></a>`;
-zaloFoorter.innerHTML = `Zalo: <a href="${ZALO}"><b>${PHONE}</b></a>`;
-mailFooter.innerHTML = `Mail: <a ><b>nguyenvanhung28686@gmail.com</b></a>`;
-phoneFooter.innerHTML = `Hotline: ${PHONE}`;
 
 //header
 const header = document.getElementById("header");
