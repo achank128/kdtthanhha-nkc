@@ -86,18 +86,28 @@ website.innerHTML = `Website: <a href="#">https://kdtthanhha.com</a>`;
 facebookFooter.innerHTML = ` Faccbook: <a href=${FACEBOOK}><b>Nguyễn Văn Hùng</b></a>`;
 zaloFooter.innerHTML = `Zalo: <a href="${ZALO}"><b>${PHONE}</b></a>`;
 mailFooter.innerHTML = `Mail: <a ><b>nguyenvanhung28686@gmail.com</b></a>`;
-phoneFooter.innerHTML = `Hotline: ${PHONE}`;
+phoneFooter.innerHTML = `Hotline: <a href="tel:"${PHONECALL}">${PHONE}</a>`;
 
-//Lienhe
+//Lien he
 const facebooklh = document.querySelector(".facebook-lh");
 const zalolh = document.querySelector(".zalo-lh");
 const maillh = document.querySelector(".mail-lh");
 const phonelh = document.querySelector(".phone-lh");
 if (facebooklh) {
-  facebooklh.innerHTML = `Facebook: <a href=${FACEBOOK} class="social-acc">Nguyễn Văn Hùng</a>`;
+  facebooklh.innerHTML = `Facebook: <a href=${FACEBOOK} class="facebook">Nguyễn Văn Hùng</a>`;
   phonelh.innerHTML = `Hotline: <a href="tel:${PHONECALL}" class="hotline">${PHONE} </a>`;
   maillh.innerHTML = `Email: <a href="${MAIL}" class="mail">${MAIL}</a>`;
-  zalolh.innerHTML = `Zalo: <a href="${ZALO}" class="social-acc">Mr Hùng: ${PHONE}</a>`;
+  zalolh.innerHTML = `Zalo: <a href="${ZALO}" class="zalo">Mr Hùng: ${PHONE}</a>`;
+}
+//Du an
+const addressda = document.getElementById("address-da");
+const mailda = document.getElementById("mail-da");
+const phoneda = document.getElementById("phone-da");
+if (phoneda) {
+  phoneda.innerHTML = `<b>Hotline: <a href="tel:${PHONECALL}" class="hotline">${PHONE} </a></b>`;
+  mailda.innerHTML = `<b>Email:</b> <a href="${MAIL}" class="mail">${MAIL}</a>`;
+  addressda.innerHTML = `<b>Địa chỉ:</b> Khu B1.4, Liền kề 09 VT 23, Khu đô thị Thanh Hà Mường
+  Thanh Cienco 5`;
 }
 
 //map

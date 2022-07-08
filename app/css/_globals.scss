@@ -19,6 +19,8 @@ body {
   line-height: 1.4;
   overflow-x: hidden;
   color: $text-color;
+  background-color: #fafbfc;
+
   &.noscroll {
     overflow: hidden;
   }
@@ -137,5 +139,22 @@ button {
     background-color: #d11a59;
     border-radius: 20px;
     margin-bottom: 6px;
+  }
+}
+
+@keyframes slideInFormLeft {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFormRight {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }

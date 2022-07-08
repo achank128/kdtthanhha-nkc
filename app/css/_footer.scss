@@ -40,6 +40,11 @@
     li {
       font-weight: 500;
     }
+    .hotline {
+      a {
+        color: $red-color;
+      }
+    }
     .website {
       a {
         font-weight: 400;
@@ -49,8 +54,20 @@
   }
   .social {
     flex: 1;
-    a {
-      color: #3578e5;
+    .facebook {
+      a {
+        color: #3578e5;
+      }
+    }
+    .zalo {
+      a {
+        color: #359ce5;
+      }
+    }
+    .mail {
+      a {
+        color: $yellow-color;
+      }
     }
   }
 

@@ -10,6 +10,7 @@
     }
     .left {
       width: 66.67%;
+      animation: slideInFormLeft 0.6s ease-in;
       @include mobile {
         width: 100%;
       }
@@ -20,6 +21,7 @@
         overflow: hidden;
         border-radius: 10px;
         border: 1px solid $gray-border-color;
+        background-color: $white-color;
         @include mobile {
           height: 60vh;
         }
@@ -118,6 +120,7 @@
       }
     }
     .right {
+      animation: slideInFormRight 0.6s ease-in;
       width: 33.33%;
       margin-left: 20px;
       padding: 20px;
@@ -230,8 +233,8 @@
 
   //product
   .product-container {
-    background: url("https://khudothithanhha.vn/wp-content/uploads/2021/08/shophouse-thanh-ha-cienco-5-1024x682.jpg")
-      no-repeat right top;
+    background: url("../../assests/shophouse-thanh-ha-cienco-5.jpg") no-repeat
+      right top;
     margin-bottom: 40px;
     .wrapper {
       background-color: rgba($color: $blue-color, $alpha: 0.8);
@@ -266,6 +269,7 @@
           margin-right: -50%;
         }
       }
+
       .content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

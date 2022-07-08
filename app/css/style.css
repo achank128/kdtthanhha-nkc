@@ -21,6 +21,7 @@ body {
   line-height: 1.4;
   overflow-x: hidden;
   color: #262626;
+  background-color: #fafbfc;
 }
 
 body.noscroll {
@@ -159,6 +160,50 @@ button {
   background-color: #d11a59;
   border-radius: 20px;
   margin-bottom: 6px;
+}
+
+@-webkit-keyframes slideInFormLeft {
+  0% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInFormLeft {
+  0% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFormRight {
+  0% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInFormRight {
+  0% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 #header {
@@ -400,6 +445,8 @@ button {
 
 #home .sider-container .left {
   width: 66.67%;
+  -webkit-animation: slideInFormLeft 0.6s ease-in;
+          animation: slideInFormLeft 0.6s ease-in;
 }
 
 @media only screen and (max-width: 600px) {
@@ -415,6 +462,7 @@ button {
   overflow: hidden;
   border-radius: 10px;
   border: 1px solid #dbdbdb;
+  background-color: #fff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -591,6 +639,8 @@ button {
 }
 
 #home .sider-container .right {
+  -webkit-animation: slideInFormRight 0.6s ease-in;
+          animation: slideInFormRight 0.6s ease-in;
   width: 33.33%;
   margin-left: 20px;
   padding: 20px;
@@ -724,7 +774,7 @@ button {
 }
 
 #home .product-container {
-  background: url("https://khudothithanhha.vn/wp-content/uploads/2021/08/shophouse-thanh-ha-cienco-5-1024x682.jpg") no-repeat right top;
+  background: url("../../assests/shophouse-thanh-ha-cienco-5.jpg") no-repeat right top;
   margin-bottom: 40px;
 }
 
@@ -1023,6 +1073,10 @@ button {
   font-weight: 500;
 }
 
+#footer .contact .hotline a {
+  color: #ff0000;
+}
+
 #footer .contact .website a {
   font-weight: 400;
   color: #074971;
@@ -1034,8 +1088,16 @@ button {
           flex: 1;
 }
 
-#footer .social a {
+#footer .social .facebook a {
   color: #3578e5;
+}
+
+#footer .social .zalo a {
+  color: #359ce5;
+}
+
+#footer .social .mail a {
+  color: #f5a900;
 }
 
 #footer .footer-bottom {
@@ -1264,15 +1326,19 @@ button {
 
 #contact .mail {
   font-style: italic;
-  color: #074971;
+  color: #f5a900;
 }
 
 #contact .website {
   color: #074971;
 }
 
-#contact .social-acc {
+#contact .facebook {
   color: #3578e5;
+}
+
+#contact .zalo {
+  color: #359fe5;
 }
 
 #news-item {
