@@ -8,6 +8,7 @@
   }
   .news-content {
     margin-bottom: 50px;
+
     .news-list {
       padding-bottom: 40px;
       border-bottom: 2px solid $blue-color;
@@ -81,8 +82,8 @@
         color: $blue-color;
         margin-bottom: 16px;
       }
-      .hotline {
-        color: red;
+      .hotline-intro {
+        color: $red-color;
         font-weight: 500;
       }
     }

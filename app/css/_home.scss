@@ -349,7 +349,7 @@
           object-fit: cover;
         }
       }
-      .news-content {
+      .news-content-item {
         width: 70%;
         .news-title {
           color: $blue-color;
@@ -383,7 +383,7 @@
         color: $blue-color;
         margin-bottom: 16px;
       }
-      .hotline {
+      .hotline-intro {
         color: red;
         font-weight: 500;
       }

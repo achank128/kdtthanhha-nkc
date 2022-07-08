@@ -82,9 +82,9 @@ button {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .container {
-    padding: 0 10px;
+    padding: 0 16px;
   }
 }
 
@@ -886,18 +886,18 @@ button {
      object-fit: cover;
 }
 
-#home .extend-container .news-event .news-content {
+#home .extend-container .news-event .news-content-item {
   width: 70%;
 }
 
-#home .extend-container .news-event .news-content .news-title {
+#home .extend-container .news-event .news-content-item .news-title {
   color: #074971;
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.2;
 }
 
-#home .extend-container .news-event .news-content span {
+#home .extend-container .news-event .news-content-item span {
   font-size: 0.5rem;
   font-weight: 700;
   color: #fff;
@@ -932,7 +932,7 @@ button {
   margin-bottom: 16px;
 }
 
-#home .extend-container .intro .hotline {
+#home .extend-container .intro .hotline-intro {
   color: red;
   font-weight: 500;
 }
@@ -1002,6 +1002,12 @@ button {
           flex: 1;
 }
 
+@media only screen and (max-width: 600px) {
+  #footer .about {
+    display: none;
+  }
+}
+
 #footer .about .about-end {
   font-weight: 500;
   margin: 20px 0;
@@ -1029,7 +1035,7 @@ button {
 }
 
 #footer .social a {
-  color: #ff0000;
+  color: #3578e5;
 }
 
 #footer .footer-bottom {
@@ -1203,8 +1209,8 @@ button {
   margin-bottom: 16px;
 }
 
-#news .extend-content .intro .hotline {
-  color: red;
+#news .extend-content .intro .hotline-intro {
+  color: #ff0000;
   font-weight: 500;
 }
 
@@ -1258,14 +1264,14 @@ button {
 
 #contact .mail {
   font-style: italic;
-  color: #8e8e8e;
+  color: #074971;
 }
 
 #contact .website {
-  color: #8e8e8e;
+  color: #074971;
 }
 
-#contact .facebook {
+#contact .social-acc {
   color: #3578e5;
 }
 
@@ -1394,6 +1400,10 @@ button {
   margin-bottom: 50px;
 }
 
+#introduce .container {
+  max-width: 980px;
+}
+
 #introduce .introduce-title {
   color: #074971;
   margin-bottom: 20px;
@@ -1462,6 +1472,20 @@ button {
 
 #introduce .introduce-content .list li {
   padding: 6px 0;
+}
+
+#introduce .introduce-content .list-sm {
+  margin-bottom: 20px;
+}
+
+#introduce .introduce-content .list-sm label {
+  font-weight: 500;
+}
+
+#introduce .introduce-content .list-sm li {
+  list-style: none;
+  padding: 3px 0;
+  font-size: 0.875rem;
 }
 
 #introduce .introduce-content .map {

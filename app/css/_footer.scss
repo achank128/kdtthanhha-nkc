@@ -27,6 +27,9 @@
   }
   .about {
     flex: 1;
+    @include mobile {
+      display: none;
+    }
     .about-end {
       font-weight: 500;
       margin: 20px 0;
@@ -47,7 +50,7 @@
   .social {
     flex: 1;
     a {
-      color: $red-color;
+      color: #3578e5;
     }
   }
 

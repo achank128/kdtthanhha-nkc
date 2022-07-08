@@ -1,6 +1,9 @@
 #introduce {
   padding: 20px 0;
   margin-bottom: 50px;
+  .container {
+    max-width: 980px;
+  }
   .introduce-title {
     color: $blue-color;
     margin-bottom: 20px;
@@ -58,6 +61,17 @@
       }
       li {
         padding: 6px 0;
+      }
+    }
+    .list-sm {
+      margin-bottom: 20px;
+      label {
+        font-weight: 500;
+      }
+      li {
+        list-style: none;
+        padding: 3px 0;
+        font-size: $font-sm;
       }
     }
     .map {
