@@ -342,6 +342,9 @@ button {
 #header #sidebar .sidebar-item {
   border-bottom: 1px solid #8e8e8e;
 }
+#header #sidebar .sidebar-item:hover {
+  background-color: #0a5b8e;
+}
 #header #sidebar .sidebar-item:last-child {
   border-bottom: none;
 }

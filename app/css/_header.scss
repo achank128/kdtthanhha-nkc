@@ -146,6 +146,9 @@
     }
     .sidebar-item {
       border-bottom: 1px solid $gray-color;
+      &:hover {
+        background-color: #0a5b8e;
+      }
       &:last-child {
         border-bottom: none;
       }
