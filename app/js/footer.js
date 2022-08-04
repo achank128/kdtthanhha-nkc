@@ -6,7 +6,7 @@ import {
   MAIL,
   MAP,
   COMPANY,
-  ADDRESS,
+  ADDRESS_COMPANY,
 } from "./data.js";
 
 const footer = document.getElementById("footer");
@@ -28,7 +28,7 @@ footer.innerHTML = `
       <div class="title">Thông tin liên hệ</div>
       <ul>
         <li class="address" id="address-footer">
-          VPGD: ${ADDRESS}
+          VPGD: ${ADDRESS_COMPANY}
         </li>
         <li class="hotline" id="phone-footer">Hotline: <a href="tel:"${PHONECALL}">${PHONE}</a></li>
         <li class="website" id="website">Website: <a href="www.kdtthanhha.com">www.kdtthanhha.com</a></li>

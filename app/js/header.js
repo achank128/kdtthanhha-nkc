@@ -1,13 +1,4 @@
-import {
-  ZALO,
-  FACEBOOK,
-  PHONE,
-  PHONECALL,
-  MAIL,
-  MAP,
-  COMPANY,
-  ADDRESS,
-} from "./data.js";
+import { ZALO, FACEBOOK, PHONE, PHONECALL, MAIL, MAP } from "./data.js";
 
 //header
 const header = document.getElementById("header");
