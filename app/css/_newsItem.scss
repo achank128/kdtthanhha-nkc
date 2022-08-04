@@ -24,6 +24,11 @@
     }
     .text {
       margin-bottom: 20px;
+      font-size: $font-med;
+    }
+    .text-lg {
+      font-size: $font-lg;
+      font-weight: 500;
     }
     .date-posted {
       font-weight: 300;

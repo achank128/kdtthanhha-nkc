@@ -1,23 +1,23 @@
 import { ProjectData } from "./data.js";
 
-const ProjList = document.querySelector(".news-list");
+const ProjectList = document.querySelector(".project-list");
 
-ProjList.innerHTML = ProjectData.map((proj) => {
+ProjectList.innerHTML = ProjectData.map((proj) => {
   return `
-  <div class="news-item">
+  <div class="project-item">
     <a href=${proj.link}>
-      <div class="news-img">
+      <div class="project-img">
         <img
           src=${proj.img}
-          alt="news"
+          alt="project"
         />
       </div>
-      <div class="news-content-item">
+      <div class="project-content-item">
         <span>DỰ ÁN</span>
-        <div class="news-title">
+        <div class="project-title">
           ${proj.title}
         </div>
-        <p class="news-desc">
+        <p class="project-desc">
           ${proj.desc}
         </p>
       </div>

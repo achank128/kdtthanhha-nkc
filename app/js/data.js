@@ -1,3 +1,12 @@
+export const ZALO = "https://zalo.me/562398999";
+export const FACEBOOK = `https://www.facebook.com/profile.php?id=100064734504163`;
+export const PHONE = "0562.398.999";
+export const PHONECALL = "0562398999";
+export const MAIL = "nguyenvanhung28686@gmail.com";
+export const MAP = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14906.05517069742!2d105.77527041626236!3d20.931872211441487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad494e8f8521%3A0x9d70aa1dd7ac2e54!2zVGhhbmggSMOgIE3GsOG7nW5nIFRoYW5oIENpZW5jbyA1!5e0!3m2!1svi!2s!4v1657262025127!5m2!1svi!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+export const COMPANY = "KDT Thanh Hà - Mường Thanh Cienco 5";
+export const ADDRESS = `Khu B1.4, Liền kề 09 VT 23, Khu đô thị Thanh Hà Mường Thanh Cienco 5`;
+
 export const NewsListData = [
   {
     img: "./assests/tienichnoikhu.jpg",
@@ -41,41 +50,180 @@ export const NewsListData = [
 
 export const ProjectData = [
   {
+    name: "khu-b1.1",
+    img: "./assests/sodomatbang-b1.1_1.jpg",
+    title: "MẶT BẰNG SƠ ĐỒ KHU B1.1 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
+    desc: "Chúng tôi trân trọng gửi tới quý khách hàng mặt bằng khu B1.1Liền Kề Biệt Thự Thanh Hà Mường Thanh. Mặt bằng ô đất khu B1.1 gồm các ô biệt thự và Liền kề Thanh Hà.",
+    link: "./so-do-mat-bang.html?khu-b1.1",
+    html: `
+      <div class="container">
+        <article class="news-content">
+          <h2 class="title-main">
+            Mặt Bằng Sơ Đồ Khu B1.1 Liền Kề Biệt Thự Thanh Hà Mường Thanh
+          </h2>
+          <div class="date-posted">POSTED ON 24/07/2022</div>
+          <p class="text">
+            <b>
+              Chúng tôi trân trọng gửi tới quý khách hàng mặt bằng khu B1.1
+              Liền Kề Biệt Thự Thanh Hà Mường Thanh. Mặt bằng ô đất khu B1.1
+              gồm các ô biệt thự và Liền kề Thanh Hà.
+            </b>
+          </p>
+
+          <p class="text">
+            - Nằm ở phía Bắc của dự án, khu B1.1 được ví như cửa ngõ của khu
+            đô thị khu này được xây dựng sớm nhất, công trình chung cư 6 tầng
+            của khu B1.1 hiện nay cũng đã đi vào hoạt động. Phía Tây của B1.1
+            là trục đường chính 60m.
+          </p>
+
+          <ul class="list">
+            <label>Khu B1.1 Bao gồm :</label>
+            <li>341 căn liền kề và 95 căn biệt thự – shophouse 15 căn</li>
+            <li>Diện tích từ 80m2, 100m2, 116m2, 240m2…</li>
+            <li>Khu B1.1 có 1 trường mầm non đạt chuẩn quốc gia.</li>
+            <li>
+              Hạ tầng kỹ thuật cơ bản của B1.1 hiện đã hoàn thiện, khách hàng
+              đóng đủ tiền sẽ được nhận đất xây nhà.
+            </li>
+            <li>Giá giao động từ 40 đến 80 triệu/m2 tùy từng vị trí.</li>
+          </ul>
+
+          <p class="text text-lg">
+            Chi tiết mặt bằng ô đất khu B1.1 Liền Kề Thanh Hà, Biệt Thự Thanh
+            Hà như sau:
+          </p>
+
+          <div class="img">
+            <img src="./assests/sodomatbang-b1.1_1.jpg" alt="" />
+            <p class="img-text">
+              Sơ đồ mặt bằng ô đất khu B1.1 BT01-BT02-LK18-LK19 Liền Kề Biệt
+              Thự Thanh Hà
+            </p>
+          </div>
+          <div class="img">
+            <img src="./assests/sodomatbang-b1.1_2.jpg" alt="" />
+            <p class="img-text">
+              Sơ đồ mặt bằng ô đất khu B1.1 BT03-BT04-BT05 Liền Kề Biệt Thự
+              Thanh Hà
+            </p>
+          </div>
+          <div class="img">
+            <img src="./assests/sodomatbang-b1.1_3.jpg" alt="" />
+            <p class="img-text">
+              Sơ đồ mặt bằng ô đất khu B1.1 LK01-02-03-04-05 Liền Kề Biệt Thự
+              Thanh Hà
+            </p>
+          </div>
+          <div class="img">
+            <img src="./assests/sodomatbang-b1.1_4.jpg" alt="" />
+            <p class="img-text">
+              Sơ đồ mặt bằng ô đất khu B1.1 Liền Kề Biệt Thự Thanh Hà
+              LK07-08-09
+            </p>
+          </div>
+          <div class="img">
+            <img src="./assests/sodomatbang-b1.1_4.jpg" alt="" />
+            <p class="img-text">
+              Sơ đồ mặt bằng ô đất khu B1.1 Liền Kề Biệt Thự Thanh Hà
+              LK13-14-15-16-17
+            </p>
+          </div>
+
+          <h3 class="title-lv1">Liên hệ với chúng tôi</h3>
+          <ul class="list">
+            <li id="phone-da"><b>Hotline: 056328999</b></li>
+            <li id="zalo-da"></li>
+            <li id="mail-da"><b>Gmail:</b> khacchang128@gmail.com</li>
+            <li id="address-da">
+              <b>Địa Chỉ:</b> Khu đô Thị Thanh Hà, Thanh Oai, Hà Nội
+            </li>
+            <li id="website-da"><b>Website:</b> www.kdtthanhha.com</li>
+          </ul>
+
+          <div class="next-post">
+            <i class="fa-solid fa-arrow-right"></i>DỰ ÁN KHÁC:
+            <a href="./so-do-mat-bang-chuan-lien-ke-biet-thu.html">
+              SƠ ĐỒ MẶT BẰNG KHU A1.2 LIỀN KỀ THANH HÀ CIENCO 5 MƯỜNG THANH
+            </a>
+          </div>
+        </article>
+      </div>
+    `,
+  },
+  {
+    name: "khu-b1.2",
     img: "./assests/mat-bang-khu-a1.2-thanh-ha.jpg",
-    title: "SƠ ĐỒ MẶT BẰNG KHU A1.2 LIỀN KỀ THANH HÀ CIENCO 5 MƯỜNG THANH",
-    desc: "Sơ đồ vị trí Khu A1.2 Liền Kề Thanh Hà Cienco 5 Mường Thanh. Đây là khu vị trí đẹp nhất khu đô thị ...",
-    link: "./so-do-mat-bang-khu-a1.2.html",
-  },
-  {
-    img: "./assests/A2.3-lk01-lk02-thanh-ha.jpg",
-    title: "SƠ ĐỒ MẶT BẰNG KHU A2.3 LIỀN KỀ THANH HÀ CIENCO 5 MƯỜNG THANH",
-    desc: "Sơ đồ mặt bằng khu A2.3 thanh hà cienco 5 liền kề 01, liền kề 02, liền kề 03, liền kề 04, liền kề ...",
-    link: "./so-do-mat-bang-khu-a2.3.html",
-  },
-  {
-    img: "./assests/b1.1-lk2-lk03-lk04-lk05-lk06-thanh-ha.jpg",
-    title:
-      "SƠ ĐỒ MẶT BẰNG LIỀN KỀ KHU B1.1, B1.2, B1.3 THANH HÀ CIENCO 5 MƯỜNG THANH",
-    desc: "Bản đồ quy hoạch Liền Kề, Biệt Thự phân lô Thanh Hà B khu B1.1 gần sát đường trục chính 50m phía Nam. Giao ...",
-    link: "./so-do-mat-bang-khu-b1.1-b1.2-b1.3.html",
-  },
-  {
-    img: "./assests/b1-4-lk1-lk2-lk3-lk4-lien-ke-thanh-ha.jpg",
-    title: " SƠ ĐỒ MẶT BẰNG LIỀN KỀ KHU B1.4 THANH HÀ CIENCO 5 MƯỜNG THANH",
-    desc: "Sơ đồ mặt bằng vị trí khu B1.4 liền kề thanh hà tại khu đô thị thanh hà B. Bao gồm những khu block liền ...",
-    link: "./so-do-mat-bang-khu-b1.4.html",
-  },
-  {
-    img: "./assests/b2.1-lk1-lien-ke-thanh-ha.jpg",
-    title: "SƠ ĐỒ MẶT BẰNG LIỀN KỀ KHU B2.1 THANH HÀ CIENCO 5 MƯỜNG THANH",
-    desc: "Sơ đồ mặt bằng khu b2.1 liền kề Thanh Hà Cienco 5 gồm 4 block liền kề diện tích trung bình 85,6m2/lô. Khu b2.1 ...",
-    link: "./so-do-mat-bang-khu-b2.1.html",
-  },
-  {
-    img: "./assests/metlienkebietthu.jpg",
-    title:
-      "SƠ ĐỒ MẶT BẰNG CHUẨN LIỀN KỀ KHU BIỆT THỰ THANH HÀ CIENCO 5 MƯỜNG THANH",
-    desc: "Sơ đồ mặt bằng liền kề biệt thự Thanh Hà Cienco 5 chính thức mở bán 06/2016 ...",
-    link: "./so-do-mat-bang-chuan-lien-ke-biet-thu.html",
+    title: "MẶT BẰNG SƠ ĐỒ KHU B1.2 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
+    desc: "Chúng tôi trân trọng gửi tới quý khách hàng mặt bằng khu B1.1Liền Kề Biệt Thự Thanh Hà Mường Thanh. Mặt bằng ô đất khu B1.2 gồm các ô biệt thự và Liền kề Thanh Hà.",
+    link: "./so-do-mat-bang.html?khu-b1.2",
+    html: `
+    <div class="container">
+      <article class="news-content">
+        <h2 class="title-main">
+          Mặt Bằng Sơ Đồ B1.2 Liền Kề Biệt Thự Thanh Hà Mường Thanh
+        </h2>
+        <div class="date-posted">POSTED ON 24/07/2022</div>
+        <p class="text">
+          <b>
+            Chúng tôi trân trọng gửi tới Quý khách hàng mặt bằng sơ đồ ô đất
+            B1.2 Liền Kề Biệt Thự Thanh Hà.
+          </b>
+        </p>
+
+        <ul class="list">
+          <label>Khu B1.2 Bao gồm :</label>
+          <li>B1.2 gồm 6 dãy liền kề Bao gồm tổng 144 căn.</li>
+          <li>
+            Trường cấp 2, diện tích 13880m2 quy mô 2322 học sinh và trường
+            mầm non diện tích 2570m2
+          </li>
+          <li>Ngoài ra, B1.2 còn có 3 block chung cư 8 tầng.</li>
+          <li>Khu dịch vụ công cộng và mặt đường lớn</li>
+          <li>Giá giao động chỉ từ 50 đến 75 triệu/m2 tùy từng vị trí.</li>
+          <li>
+            Phù hợp cho các nhà đầu tư, kinh doanh. Hiện nay, B1.2 hiện đã
+            hoàn thiện hạ tầng kỹ thuật cơ bản
+          </li>
+        </ul>
+
+        <p class="text text-lg">
+          Chi tiết mặt bằng ô đất khu B1.2 Liền Kề Thanh Hà, Biệt Thự Thanh
+          Hà như sau:
+        </p>
+
+        <div class="img">
+          <img src="./assests/sodomatbang-b1.2_1.jpg" alt="" />
+          <p class="img-text">
+            Mặt Bằng Sơ Đồ B1.2 Liền Kề Biệt Thự Thanh Hà LK01-LK02-LK03
+          </p>
+        </div>
+        <div class="img">
+          <img src="./assests/sodomatbang-b1.2_2.jpg" alt="" />
+          <p class="img-text">
+            Mặt Bằng Sơ Đồ B1.2 Liền Kề Biệt Thự Thanh Hà LK04-LK05-LK06
+          </p>
+        </div>
+
+        <h3 class="title-lv1">Liên hệ với chúng tôi</h3>
+        <ul class="list">
+          <li id="phone-da"><b>Hotline: 056328999</b></li>
+          <li id="zalo-da"></li>
+          <li id="mail-da"><b>Gmail:</b> khacchang128@gmail.com</li>
+          <li id="address-da">
+            <b>Địa Chỉ:</b> Khu đô Thị Thanh Hà, Thanh Oai, Hà Nội
+          </li>
+          <li id="website-da"><b>Website:</b> www.kdtthanhha.com</li>
+        </ul>
+
+        <div class="next-post">
+          <i class="fa-solid fa-arrow-right"></i>DỰ ÁN KHÁC:
+          <a href="./so-do-mat-bang-chuan-lien-ke-biet-thu.html">
+            SƠ ĐỒ MẶT BẰNG KHU A1.2 LIỀN KỀ THANH HÀ CIENCO 5 MƯỜNG THANH
+          </a>
+        </div>
+      </article>
+    </div>
+    `,
   },
 ];
