@@ -1339,7 +1339,7 @@ button {
 #project .project-content .project-list .project-content-item .project-title {
   font-size: 1.375rem;
   line-height: 1.2;
-  margin-bottom: 6px;
+  margin: 6px 0;
   color: #074971;
   font-weight: 700;
   text-transform: uppercase;
