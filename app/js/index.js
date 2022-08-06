@@ -1,25 +1,5 @@
 import { NewsListData } from "./data.js";
 
-var swiper = new Swiper(".swiperNews", {
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  spaceBetween: 30,
-  centeredSlides: true,
-  autoplay: {
-    delay: 2200,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
-
 const swiperWrapper = document.querySelector(".swiper-wrapper");
 swiperWrapper.innerHTML = NewsListData.map((newItem) => {
   return `
@@ -42,6 +22,25 @@ swiperWrapper.innerHTML = NewsListData.map((newItem) => {
   </div>
   `;
 }).join("");
+
+const swiper = new Swiper(".swiperNews", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2200,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
 //news
 const NewsList = document.querySelector(".news-list");
