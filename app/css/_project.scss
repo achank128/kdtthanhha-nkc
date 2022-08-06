@@ -60,8 +60,11 @@
           }
         }
         .project-desc {
-          font-size: $font-sm;
+          font-size: 0.975rem;
           color: $gray-color;
+          @include mobile {
+            font-size: $font-sm;
+          }
         }
         &:hover {
           span {

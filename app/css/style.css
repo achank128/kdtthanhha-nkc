@@ -126,12 +126,18 @@ button {
   z-index: 1000;
 }
 #contact-info button {
+  opacity: 0.9;
   display: block;
   font-weight: 700;
 }
 #contact-info button:hover {
   transform: scale(1.05);
   transform-origin: left;
+}
+#contact-info i {
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 6px;
 }
 #contact-info a {
   color: #fff;
@@ -196,6 +202,7 @@ button {
   z-index: 100;
   border-bottom: 1px solid #dbdbdb;
   background-color: #fff;
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2);
 }
 #header .navbar {
   height: 60px;
@@ -393,135 +400,59 @@ button {
     height: 60vh;
   }
 }
-#home .sider-container .left .slider .slide-prev {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 50px;
-  background-color: rgba(246, 246, 246, 0.75);
-  opacity: 0;
-  transition: all 0.25s ease-out;
-  z-index: 1;
-  left: 6px;
+#home .sider-container .left .slider .swiper {
+  width: 100%;
+  height: 100%;
 }
-#home .sider-container .left .slider .slide-prev:hover {
-  color: #fff;
-  background-color: rgba(146, 145, 145, 0.75);
-}
-#home .sider-container .left .slider .slide-prev i {
-  font-size: 1.125rem;
-  opacity: 0.6;
-}
-@media only screen and (max-width: 1024px) {
-  #home .sider-container .left .slider .slide-prev {
-    opacity: 1;
-  }
-}
-#home .sider-container .left .slider .slide-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 50px;
-  background-color: rgba(246, 246, 246, 0.75);
-  opacity: 0;
-  transition: all 0.25s ease-out;
-  z-index: 1;
-  right: 6px;
-}
-#home .sider-container .left .slider .slide-next:hover {
-  color: #fff;
-  background-color: rgba(146, 145, 145, 0.75);
-}
-#home .sider-container .left .slider .slide-next i {
-  font-size: 1.125rem;
-  opacity: 0.6;
-}
-@media only screen and (max-width: 1024px) {
-  #home .sider-container .left .slider .slide-next {
-    opacity: 1;
-  }
-}
-#home .sider-container .left .slider .prev-active {
-  opacity: 1;
-  left: 0;
-}
-#home .sider-container .left .slider .next-active {
-  opacity: 1;
-  right: 0;
-}
-#home .sider-container .left .slider .dot-container {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 20px;
-  display: flex;
-}
-#home .sider-container .left .slider .dot-container .dot {
-  width: 10px;
-  height: 10px;
-  background-color: #dbdbdb;
-  margin: 8px;
-  border-radius: 50%;
-  transition: background-color 200ms linear;
-  cursor: pointer;
-}
-#home .sider-container .left .slider .dot-container .dot-current {
-  background-color: #074971;
-}
-#home .sider-container .left .slider .slider-content {
-  position: relative;
-  transition: transform 0.4s ease-out 0.2s;
-}
-#home .sider-container .left .slider .slider-content .img {
+#home .sider-container .left .slider .swiper .new-img {
   height: 66vh;
 }
 @media only screen and (max-width: 600px) {
-  #home .sider-container .left .slider .slider-content .img {
+  #home .sider-container .left .slider .swiper .new-img {
     height: 40vh;
   }
 }
-#home .sider-container .left .slider .slider-content .img img {
+#home .sider-container .left .slider .swiper img {
+  display: block;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#home .sider-container .left .slider .slider-content .slide-img-1, #home .sider-container .left .slider .slider-content .slide-img-8, #home .sider-container .left .slider .slider-content .slide-img-7, #home .sider-container .left .slider .slider-content .slide-img-6, #home .sider-container .left .slider .slider-content .slide-img-5, #home .sider-container .left .slider .slider-content .slide-img-4, #home .sider-container .left .slider .slider-content .slide-img-3, #home .sider-container .left .slider .slider-content .slide-img-2 {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 100%;
-  height: 100%;
-}
-#home .sider-container .left .slider .slider-content .slide-img-2 {
-  left: 200%;
-}
-#home .sider-container .left .slider .slider-content .slide-img-3 {
-  left: 300%;
-}
-#home .sider-container .left .slider .slider-content .slide-img-4 {
-  left: 400%;
-}
-#home .sider-container .left .slider .slider-content .slide-img-5 {
-  left: 500%;
-}
-#home .sider-container .left .slider .slider-content .slide-img-6 {
-  left: 600%;
-}
-#home .sider-container .left .slider .slider-content .slide-img-7 {
-  left: 700%;
-}
-#home .sider-container .left .slider .slider-content .slide-img-8 {
-  left: 800%;
-}
-#home .sider-container .left .slider .slider-content .title {
+#home .sider-container .left .slider .swiper .title {
   width: 80%;
   margin: 20px auto;
   text-transform: uppercase;
   color: #074971;
   text-align: center;
+}
+#home .sider-container .left .slider .swiper .swiper-button-next {
+  scale: 0.5;
+  padding: 50px 32px;
+  background-color: rgba(246, 246, 246, 0.75);
+  color: #8e8e8e;
+  right: -16px;
+  border-radius: 10px 0 0 10px;
+}
+#home .sider-container .left .slider .swiper .swiper-button-next:hover {
+  color: #fff;
+  background-color: rgba(146, 145, 145, 0.75);
+}
+#home .sider-container .left .slider .swiper .swiper-button-prev {
+  scale: 0.5;
+  padding: 50px 32px;
+  background-color: rgba(246, 246, 246, 0.75);
+  color: #8e8e8e;
+  left: -16px;
+  border-radius: 0 10px 10px 0;
+}
+#home .sider-container .left .slider .swiper .swiper-button-prev:hover {
+  color: #fff;
+  background-color: rgba(146, 145, 145, 0.75);
+}
+#home .sider-container .left .slider .swiper .swiper-pagination {
+  scale: 1.2;
+  margin-bottom: 8px;
 }
 #home .sider-container .right {
   -webkit-animation: slideInFormRight 0.6s ease-in;
@@ -808,6 +739,19 @@ button {
 }
 #home .extend-container .map .google-map {
   width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #footer {
@@ -1334,8 +1278,13 @@ button {
   }
 }
 #project .project-content .project-list .project-content-item .project-desc {
-  font-size: 0.875rem;
+  font-size: 0.975rem;
   color: #8e8e8e;
+}
+@media only screen and (max-width: 600px) {
+  #project .project-content .project-list .project-content-item .project-desc {
+    font-size: 0.875rem;
+  }
 }
 #project .project-content .project-list .project-content-item:hover span {
   background-color: #f5a900;

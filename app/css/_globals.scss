@@ -117,12 +117,18 @@ button {
   bottom: 20px;
   z-index: 1000;
   button {
+    opacity: 0.9;
     display: block;
     font-weight: 700;
     &:hover {
       transform: scale(1.05);
       transform-origin: left;
     }
+  }
+  i {
+    color: $white-color;
+    font-size: 1rem;
+    margin-left: 6px;
   }
   a {
     color: $white-color;

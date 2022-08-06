@@ -31,3 +31,14 @@
     opacity: 1;
   }
 }
+
+@mixin swiperBtn {
+  scale: 0.5;
+  padding: 50px 32px;
+  background-color: rgba(246, 246, 246, 0.75);
+  color: $gray-color;
+  &:hover {
+    color: $white-color;
+    background-color: rgba(146, 145, 145, 0.75);
+  }
+}

@@ -1,16 +1,33 @@
 import { NewsListData } from "./data.js";
-const slider = document.querySelector(".slider");
-const sliderContent = slider.querySelector(".slider-content");
-const slidePrev = slider.querySelector(".slide-prev");
-const slideNext = slider.querySelector(".slide-next");
-const dotContainer = slider.querySelector(".dot-container");
-sliderContent.innerHTML = NewsListData.map((newItem, index) => {
+
+var swiper = new Swiper(".swiperNews", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2200,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+const swiperWrapper = document.querySelector(".swiper-wrapper");
+swiperWrapper.innerHTML = NewsListData.map((newItem) => {
   return `
-  <div class="slide-img-${index}">
+  <div class="swiper-slide">
     <a
       href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
     >
-      <div class="img">
+      <div class="new-img">
         <img
           src="${newItem.img}"
           alt=""
@@ -26,81 +43,15 @@ sliderContent.innerHTML = NewsListData.map((newItem, index) => {
   `;
 }).join("");
 
-slider.addEventListener("mouseenter", () => {
-  slidePrev.classList.add("prev-active");
-  slideNext.classList.add("next-active");
-});
-slider.addEventListener("mouseleave", () => {
-  slidePrev.classList.remove("prev-active");
-  slideNext.classList.remove("next-active");
-});
-
-dotContainer.innerHTML = NewsListData.map((slider, index) => {
-  return `<div class="dot dot${index}"></div>`;
-}).join("");
-const dots = slider.querySelectorAll(".dot");
-
-let slideIndex = 0;
-
-dots.forEach((dot, index) => {
-  dot.addEventListener("click", () => {
-    slideIndex = index;
-    resetDot();
-    carousel();
-  });
-});
-const resetDot = () => {
-  dots.forEach((dot) => {
-    dot.classList.remove("dot-current");
-  });
-  const dotCurrent = slider.querySelector(`.dot${slideIndex}`);
-  dotCurrent.classList.add("dot-current");
-};
-resetDot();
-
-const carousel = () => {
-  sliderContent.style.transform = `translateX(-${slideIndex * 100}%)`;
-};
-
-const autoShow = () => {
-  if (slideIndex < NewsListData.length) {
-    slideIndex++;
-  }
-  if (slideIndex === NewsListData.length) {
-    slideIndex = 0;
-  }
-  carousel();
-  resetDot();
-};
-setInterval(autoShow, 4000);
-
-slidePrev.addEventListener("click", () => {
-  slideIndex--;
-  if (slideIndex < 0) {
-    slideIndex = NewsListData.length - 1;
-  }
-  carousel();
-  resetDot();
-});
-
-slideNext.addEventListener("click", () => {
-  slideIndex++;
-  if (slideIndex > NewsListData.length - 1) {
-    slideIndex = 0;
-  }
-  carousel();
-  resetDot();
-});
-
 //news
 const NewsList = document.querySelector(".news-list");
 NewsList.innerHTML = NewsListData.map((news) => {
   return `
   <div class="news-item">
-    <a href=${news.link}>
+    <a href="${news.link}">
       <div class="news-img">
         <img
-          src=${news.img}
+          src="${news.img}"
           alt="news"
         />
       </div>

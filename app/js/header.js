@@ -67,6 +67,6 @@ if (hotlineIntro) hotlineIntro.innerHTML = `Hotline: ${PHONE}`;
 //contact button
 const contactInfo = document.getElementById("contact-info");
 contactInfo.innerHTML = `
-<button id="zalo" class="zalo-chat"><a href=${ZALO}>Chat Zalo</a></button>
-<button id="facebook" class="fb-chat"><a href=${FACEBOOK}>Chat Facebook</a></button>
-<button id="phone" class="hotline"><a href="tel:${PHONECALL}">Hotline: ${PHONE}</a></button>`;
+<button id="zalo" class="zalo-chat"><a href=${ZALO}>Chat Zalo</a> <i class="fa-solid fa-comment"></i></i></button>
+<button id="facebook" class="fb-chat"><a href=${FACEBOOK}>Chat Facebook</a> <i class="fa-brands fa-facebook"></i></button>
+<button id="phone" class="hotline"><a href="tel:${PHONECALL}">Hotline: ${PHONE}</a> <i class="fa-solid fa-mobile-screen-button"></i></button>`;
