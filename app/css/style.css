@@ -1118,7 +1118,7 @@ button {
 }
 #news-item .news-content .img {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 #news-item .news-content .img-text {
   padding: 6px;
@@ -1327,6 +1327,11 @@ button {
   color: #074971;
   font-weight: 700;
   text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  #project .project-content .project-list .project-content-item .project-title {
+    font-size: 1.125rem;
+  }
 }
 #project .project-content .project-list .project-content-item .project-desc {
   font-size: 0.875rem;

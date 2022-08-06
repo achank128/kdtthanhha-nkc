@@ -12,6 +12,20 @@ const sodoContent = ProjectData.find((p) => p.name === sodolink);
 
 const newsItem = document.getElementById("news-item");
 newsItem.innerHTML = sodoContent.html;
+document.title = sodoContent.title;
+
+const ProjectDataFilter = ProjectData.filter(
+  (p) => p.name !== sodoContent.name
+);
+const duAnKhac =
+  ProjectDataFilter[Math.floor(Math.random() * ProjectDataFilter.length)];
+const nextPost = newsItem.querySelector(".next-post");
+nextPost.innerHTML = `
+  <i class="fa-solid fa-arrow-right"></i>DỰ ÁN KHÁC:
+  <a href="${duAnKhac.link}">
+    ${duAnKhac.title}
+  </a>
+`;
 
 //Du an
 const addressda = document.getElementById("address-da");

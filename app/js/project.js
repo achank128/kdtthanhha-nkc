@@ -8,7 +8,7 @@ ProjectList.innerHTML = ProjectData.map((proj) => {
     <a href=${proj.link}>
       <div class="project-img">
         <img
-          src=${proj.img}
+          src="${proj.img}"
           alt="project"
         />
       </div>

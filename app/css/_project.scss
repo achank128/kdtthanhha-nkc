@@ -55,6 +55,9 @@
           color: $blue-color;
           font-weight: 700;
           text-transform: uppercase;
+          @include mobile {
+            font-size: $font-med;
+          }
         }
         .project-desc {
           font-size: $font-sm;
