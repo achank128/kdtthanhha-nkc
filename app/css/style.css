@@ -223,19 +223,6 @@ button {
     display: none;
   }
 }
-#header .navbar .nav-right-mobile {
-  display: none;
-  cursor: pointer;
-}
-#header .navbar .nav-right-mobile .sidebar-toggle {
-  padding: 6px;
-  font-size: 1.375rem;
-}
-@media only screen and (max-width: 600px) {
-  #header .navbar .nav-right-mobile {
-    display: block;
-  }
-}
 #header .navbar .menu {
   display: flex;
   height: 100%;
@@ -249,6 +236,7 @@ button {
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
   transition: all 105ms linear;
+  text-transform: uppercase;
 }
 #header .navbar .menu li:hover, #header .navbar .menu li.selected {
   border-bottom: 3px solid #074971;
@@ -258,7 +246,6 @@ button {
   display: flex;
   align-items: center;
   cursor: pointer;
-  text-transform: uppercase;
   font-weight: 500;
 }
 #header .navbar .menu li i {
@@ -310,6 +297,35 @@ button {
 }
 #header .navbar .menu li .project-box {
   left: -36%;
+}
+#header .navbar .menu .contact {
+  background-color: #074971;
+  border-radius: 6px;
+  border: none;
+  margin-left: 30px;
+  padding: 0 20px;
+  top: 10px;
+  height: 40px;
+}
+#header .navbar .menu .contact:hover {
+  border: none;
+  opacity: 0.8;
+}
+#header .navbar .menu .contact a {
+  color: #fff;
+}
+#header .navbar .nav-right-mobile {
+  display: none;
+  cursor: pointer;
+}
+#header .navbar .nav-right-mobile .sidebar-toggle {
+  padding: 6px;
+  font-size: 1.375rem;
+}
+@media only screen and (max-width: 600px) {
+  #header .navbar .nav-right-mobile {
+    display: block;
+  }
 }
 #header #overlay {
   display: none;
