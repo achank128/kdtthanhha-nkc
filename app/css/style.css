@@ -403,6 +403,8 @@ button {
 #home .sider-container .left .slider .swiper {
   width: 100%;
   height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #home .sider-container .left .slider .swiper .new-img {
   height: 66vh;
@@ -483,6 +485,64 @@ button {
 #home .sider-container .right .introduce-info .introduce-info-content li {
   font-size: 0.875rem;
   margin-bottom: 4px;
+}
+#home .experience-container {
+  margin-bottom: 40px;
+}
+#home .experience-container .title {
+  color: #074971;
+  margin: 10px 0;
+  overflow: hidden;
+  text-align: center;
+}
+#home .experience-container .title i {
+  font-size: 1.375rem;
+  margin-right: 10px;
+  transform: translateY(-2px);
+}
+#home .experience-container .title h2:before,
+#home .experience-container .title h2:after {
+  background-color: #074971;
+  content: "";
+  display: inline-block;
+  height: 0.5px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+#home .experience-container .title h2:before {
+  right: 20px;
+  margin-left: -50%;
+}
+#home .experience-container .title h2:after {
+  left: 20px;
+  margin-right: -50%;
+}
+#home .experience-container .desc {
+  text-align: center;
+  color: #074971;
+  font-size: 1.125rem;
+}
+#home .experience-container .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#home .experience-container .swiper .swiper-pagination {
+  scale: 1.2;
+}
+#home .experience-container .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 360px;
+  height: 360px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 4px solid #e5f7f8;
+}
+#home .experience-container .swiper-slide img {
+  display: block;
+  width: 100%;
 }
 #home .news-container {
   margin-bottom: 40px;

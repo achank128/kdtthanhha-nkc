@@ -98,6 +98,68 @@
       }
     }
   }
+
+  //experience
+  .experience-container {
+    margin-bottom: 40px;
+    .title {
+      color: $blue-color;
+      margin: 10px 0;
+      overflow: hidden;
+      text-align: center;
+      i {
+        font-size: $font-lg;
+        margin-right: 10px;
+        transform: translateY(-2px);
+      }
+      h2:before,
+      h2:after {
+        background-color: $blue-color;
+        content: "";
+        display: inline-block;
+        height: 0.5px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+      }
+      h2:before {
+        right: 20px;
+        margin-left: -50%;
+      }
+      h2:after {
+        left: 20px;
+        margin-right: -50%;
+      }
+    }
+    .desc {
+      text-align: center;
+      color: $blue-color;
+      font-size: $font-med;
+    }
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      .swiper-pagination {
+        scale: 1.2;
+      }
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 360px;
+      height: 360px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 4px solid $blue-light-color;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
   //news
   .news-container {
     margin-bottom: 40px;

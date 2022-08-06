@@ -48,7 +48,69 @@ export const NewsListData = [
   },
 ];
 
+export const Experience = [
+  "./assests/ex-1.jpg",
+  "./assests/ex-2.jpg",
+  "./assests/ex-8.jpg",
+  "./assests/ex-4.jpg",
+  "./assests/ex-3.jpg",
+  "./assests/ex-5.jpg",
+  "./assests/ex-7.jpg",
+  "./assests/ex-6.jpg",
+];
+
 export const ProjectData = [
+  {
+    name: "tong-hop",
+    img: "./assests/ban-do-gioi-thieu.jpg",
+    title: "TỔNG HỢP MẶT BẰNG LIỀN KỀ & BIỆT THỰ THANH HÀ CIENCO 5",
+    desc: "Chi tiết bản đồ quy hoạch 1/500 bao gồm: Quy hoạch tổng mặt bằng sử dụng đất khu đô thị thanh hà – Mường Thanh – cienco 5 có tổng diện tích đất khoảng 416,71 ha (4.167.108m2).",
+    link: "./so-do-mat-bang.html?tong-hop",
+    html: `
+    <div class="container">
+      <article class="news-content">
+        <h2 class="title-main">
+          Tổng Hợp Mặt Bằng Liền Kề & Biệt Thự Thanh Hà Cienco 5
+        </h2>
+        <div class="date-posted">POSTED ON 24/07/2022</div>
+
+        <p class="text">
+          Chi tiết bản đồ quy hoạch 1/500 bao gồm: Quy hoạch tổng mặt bằng
+          sử dụng đất khu đô thị thanh hà – Mường Thanh – cienco 5 có tổng diện
+          tích đất khoảng 416,71 ha (4.167.108m2).
+        </p>
+
+        <div class="img">
+          <img src="./assests/ban-do-khu-do-thi-thanh-ha.jpg" alt="" />
+          <p class="img-text">
+            Tổng thể dự án Thanh Hà – Mường Thanh Cienco 5
+          </p>
+        </div>
+        <div class="img">
+          <img src="./assests/ban-do-gioi-thieu.jpg" alt="" />
+        </div>
+
+        <h3 class="title-lv1">Liên hệ với chúng tôi</h3>
+        <ul class="list">
+          <li id="phone-da"><b>Hotline: 056328999</b></li>
+          <li id="zalo-da"></li>
+          <li id="mail-da"><b>Gmail:</b> khacchang128@gmail.com</li>
+          <li id="address-da">
+            <b>Địa Chỉ:</b> Khu đô Thị Thanh Hà, Thanh Oai, Hà Nội
+          </li>
+          <li id="website-da"><b>Website:</b> www.kdtthanhha.com</li>
+        </ul>
+
+        <div class="next-post">
+          <i class="fa-solid fa-arrow-right"></i>DỰ ÁN KHÁC:
+          <a href="./so-do-mat-bang-chuan-lien-ke-biet-thu.html">
+            SƠ ĐỒ MẶT BẰNG KHU A1.2 LIỀN KỀ THANH HÀ CIENCO 5 MƯỜNG THANH
+          </a>
+        </div>
+      </article>
+    </div>
+    `,
+  },
   {
     name: "khu-b1.1",
     img: "./assests/30-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.1-LK10-11-12-scaled.jpg",

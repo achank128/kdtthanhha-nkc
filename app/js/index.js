@@ -1,6 +1,7 @@
-import { NewsListData } from "./data.js";
+import { Experience, NewsListData } from "./data.js";
 
-const swiperWrapper = document.querySelector(".swiper-wrapper");
+const slider = document.querySelector(".slider");
+const swiperWrapper = slider.querySelector(".swiper-wrapper");
 swiperWrapper.innerHTML = NewsListData.map((newItem) => {
   return `
   <div class="swiper-slide">
@@ -23,7 +24,7 @@ swiperWrapper.innerHTML = NewsListData.map((newItem) => {
   `;
 }).join("");
 
-const swiper = new Swiper(".swiperNews", {
+const NewSlide = new Swiper(".swiperNews", {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
@@ -39,6 +40,40 @@ const swiper = new Swiper(".swiperNews", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+});
+
+//Experience
+const experience = document.querySelector(".experience-container");
+const swiperWrapperEx = experience.querySelector(".swiper-wrapper");
+swiperWrapperEx.innerHTML = Experience.map(
+  (e) => `
+  <div class="swiper-slide">
+    <img src="${e}"/>
+  </div>
+`
+);
+
+const ExSlide = new Swiper(".swiperExperience", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  loop: true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
   },
 });
 
