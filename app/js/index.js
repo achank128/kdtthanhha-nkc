@@ -52,7 +52,7 @@ swiperWrapperEx.innerHTML = Experience.map(
     <img src="${e}"/>
   </div>
 `
-);
+).join("");
 
 const ExSlide = new Swiper(".swiperExperience", {
   effect: "coverflow",

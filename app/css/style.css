@@ -394,8 +394,6 @@ button {
 }
 #home .sider-container .left {
   width: 66.67%;
-  -webkit-animation: slideInFormLeft 0.6s ease-in;
-          animation: slideInFormLeft 0.6s ease-in;
 }
 @media only screen and (max-width: 600px) {
   #home .sider-container .left {
@@ -473,8 +471,6 @@ button {
   margin-bottom: 8px;
 }
 #home .sider-container .right {
-  -webkit-animation: slideInFormRight 0.6s ease-in;
-          animation: slideInFormRight 0.6s ease-in;
   width: 33.33%;
   margin-left: 20px;
   padding: 20px;

@@ -51,7 +51,8 @@ export const NewsListData = [
 export const Experience = [
   "./assests/ex-1.jpg",
   "./assests/ex-2.jpg",
-  "./assests/ex-8.jpg",
+  "./assests/ex-9.jpg",
+  "./assests/ex-10.jpg",
   "./assests/ex-4.jpg",
   "./assests/ex-3.jpg",
   "./assests/ex-5.jpg",
