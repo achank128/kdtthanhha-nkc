@@ -38,14 +38,16 @@ footer.innerHTML = `
       <div class="title">Tài Khoản Xã Hội CIENCO 5</div>
       <ul>
         <li class="facebook" id="facebook-footer">
-          Faccbook:
-          <a href=${FACEBOOK}><b>Nguyễn Văn Hùng</b></a>
+        Faccbook:
+        
+        <a href=${FACEBOOK}><i class="fa-brands fa-facebook"></i> <b>Nguyễn Văn Hùng</b></a>
         </li>
         <li class="zalo" id="zalo-footer">
-          Zalo: <a href="${ZALO}"><b>${PHONE}</b></a>
+          
+          Zalo: <a href="${ZALO}"><i class="fa-solid fa-comment"></i> <b>${PHONE}</b></a>
         </li>
         <li class="mail" id="mail-footer">
-          Mail: <a><b>${MAIL}</b></a>
+          Mail: <a><i class="fa-solid fa-envelope"></i> <b>${MAIL}</b></a>
         </li>
       </ul>
     </div>

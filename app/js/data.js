@@ -9,6 +9,7 @@ export const COMPANY = "KDT Thanh Hà - Mường Thanh Cienco 5";
 
 export const NewsListData = [
   {
+    id: 1,
     name: "5-yeu-to-tao-nen-ten-tuoi-khu-do-thi-thanh-ha",
     img: "./assests/tienichnoikhu.jpg",
     title: "5 YẾU TỐ VÀNG TẠO NÊN TÊN TUỔI KHU ĐÔ THỊ THANH HÀ CIENCO 5",
@@ -238,6 +239,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 2,
     name: "vi-tri-khu-do-thi-thanh-ha-chu-dau-tu-tap-doan-muong-thanh",
     img: "./assests/nambat.png",
     title: "VỊ TRÍ KHU ĐÔ THỊ THANH HÀ – CHỦ ĐẦU TƯ TẬP ĐOÀN MƯỜNG THANH",
@@ -429,6 +431,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 3,
     name: "khong-nen-dau-tu-vao-bat-dong-san-thanh-ha-cienco5-neu-chua-biet-dieu-nay",
     img: "./assests/khongnen.jpg",
     title:
@@ -619,6 +622,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 4,
     name: "7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo",
     img: "./assests/review-khu-do-thi-thanh-ha.jpg",
     title: "7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ",
@@ -803,6 +807,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 5,
     name: "ha-noi-chot-chi-hon-23500-ty-dong-lam-duong-vanh-dai-4",
     img: "https://static-images.vnncdn.net/files/publish/2022/5/20/vanh-dai-4-237.jpg",
     title: "HÀ NỘI ‘CHỐT’ CHI HƠN 23.500 TỶ ĐỒNG LÀM ĐƯỜNG VÀNH ĐAI 4",
@@ -884,6 +889,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 5,
     name: "ha-noi-lap-chi-gioi-duong-do-vanh-dai-4",
     img: "https://i1-vnexpress.vnecdn.net/2022/07/21/hu-o-ng-tuye-n-doa-n-qua-HN-jp-5965-7243-1658389029.png?w=1020&h=0&q=100&dpr=1&fit=crop&s=z-V1-ROCuzqYRvqS-HW-TA",
     title: "HÀ NỘI LẬP CHỈ GIỚI ĐƯỜNG ĐỎ VÀNH ĐAI 4",
@@ -984,6 +990,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 6,
     name: "xem-xet-cap-phep-xay-dung-tai-khu-do-thi-thanh-ha",
     img: "https://laodongthudo.vn/stores/news_dataimages/2022/062022/11/15/c97f2dca9e7ac58159769e161d14a298.jpg?rt=20220611153807",
     title: "XEM XÉT CẤP PHÉP XÂY DỰNG TẠI KHU ĐÔ THỊ THANH HÀ",
@@ -1093,6 +1100,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 7,
     name: "cu-tri-kien-nghi-xay-dung-truong-hoc-cong-lap-tai-khu-do-thi-thanh-ha",
     img: "https://static.kinhtedothi.vn/w960/images/upload/2022/06/10/tx-1.JPG",
     title:
@@ -1215,6 +1223,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 8,
     name: "thong-tin-moi-nhat-ve-cap-phep-xay-dung-tro-lai-kdt-thanh-ha-cienco-5",
     img: "https://static.kinhtedothi.vn/w960/images/upload/2022/05/14/thanh-ha-2.jpg",
     title:
@@ -1410,6 +1419,7 @@ export const NewsListData = [
     `,
   },
   {
+    id: 9,
     name: "chot-thoi-gian-hoan-thanh-giai-phong-mat-bang-du-an-duong-vanh-dai-4",
     img: "https://zalo-article-photo.zadn.vn/3e0cb5d9d09239cc6083#240726366",
     title:
@@ -1699,6 +1709,7 @@ export const Experience = [
 
 export const ProjectData = [
   {
+    id: 1,
     name: "tong-hop",
     img: "./assests/ban-do-gioi-thieu.jpg",
     title: "TỔNG HỢP MẶT BẰNG LIỀN KỀ & BIỆT THỰ THANH HÀ CIENCO 5",
@@ -1750,6 +1761,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 2,
     name: "khu-b1.1",
     img: "./assests/30-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.1-LK10-11-12-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B1.1 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -1879,6 +1891,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 3,
     name: "khu-b1.2",
     img: "./assests/36-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.2-LK01-02-03-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B1.2 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -1960,6 +1973,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 4,
     name: "khu-b1.3",
     img: "./assests/37-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.3-BT01-BT02-LK16-17-18-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B1.3 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2083,6 +2097,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 5,
     name: "khu-b1.4",
     img: "./assests/44-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.4-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B1.4 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2259,6 +2274,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 6,
     name: "khu-b2.1",
     img: "./assests/b2.1 BT 1-2-3-4.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.1 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2387,6 +2403,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 7,
     name: "khu-b2.2",
     img: "./assests/64-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.2-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.2 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2486,6 +2503,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 8,
     name: "khu-b2.3",
     img: "./assests/68-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.3-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.3 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2572,6 +2590,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 9,
     name: "khu-b2.4",
     img: "./assests/71-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.4-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.4 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2648,6 +2667,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 10,
     name: "khu-b2.5",
     img: "./assests/73-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.5-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.5 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2720,6 +2740,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 11,
     name: "khu-b3.1",
     img: "./assests/73-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.5-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B3.1 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2778,6 +2799,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 12,
     name: "khu-a1.1",
     img: "./assests/01-mat-bang-biet-thu-lien-ke-thanh-ha-a1.1-bt01-bt02-lk01-lk02-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A1.1 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -2869,6 +2891,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 13,
     name: "khu-a1.2",
     img: "./assests/03-mat-bang-biet-thu-lien-ke-thanh-ha-a1.2-bt01-bt02-lk01-lk02-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A1.2 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -2982,6 +3005,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 14,
     name: "khu-a1.3",
     img: "./assests/08-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a1.3-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A1.3 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3091,6 +3115,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 15,
     name: "khu-a2.2",
     img: "./assests/13-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.2-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.2 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3161,6 +3186,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 16,
     name: "khu-a2.3",
     img: "./assests/15-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.3-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.3 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3267,6 +3293,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 17,
     name: "khu-a2.4",
     img: "./assests/19-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.4-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.4 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3397,6 +3424,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 18,
     name: "khu-a2.5",
     img: "./assests/25-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.5-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.5 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3468,6 +3496,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 19,
     name: "khu-a2.7",
     img: "./assests/27-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.7-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.7 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3551,6 +3580,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 20,
     name: "khu-a2.10",
     img: "./assests/29-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.10-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.10 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3614,6 +3644,7 @@ export const ProjectData = [
     `,
   },
   {
+    id: 21,
     name: "khu-a3.1",
     img: "./assests/30.1-so-do-khu-a3.1.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A3.1 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",

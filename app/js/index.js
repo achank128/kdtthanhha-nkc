@@ -101,10 +101,13 @@ const ExSlide = new Swiper(".swiperExperience", {
 //     </a>
 //   </div>`;
 // }).join("");
+
 //news-event
 const NewsEvent = document.querySelector(".news-event-list");
-NewsEvent.innerHTML = NewsListData.map((news) => {
-  return `
+
+NewsEvent.innerHTML = NewsListData.map((news, i) => {
+  if (i < 7)
+    return `
   <a href=${news.link}>
   <div class="news-event-item">
     <div class="news-event-img">
