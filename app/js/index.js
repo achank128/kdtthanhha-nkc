@@ -78,29 +78,29 @@ const ExSlide = new Swiper(".swiperExperience", {
 });
 
 //news
-const NewsList = document.querySelector(".news-list");
-NewsList.innerHTML = NewsListData.map((news) => {
-  return `
-  <div class="news-item">
-    <a href="${news.link}">
-      <div class="news-img">
-        <img
-          src="${news.img}"
-          alt="news"
-        />
-      </div>
-      <div class="news-content">
-        <span>TIN TỨC</span>
-        <div class="news-title">
-          ${news.title}
-        </div>
-        <p class="news-desc">
-          ${news.desc}
-        </p>
-      </div>
-    </a>
-  </div>`;
-}).join("");
+// const NewsList = document.querySelector(".news-list");
+// NewsList.innerHTML = NewsListData.map((news) => {
+//   return `
+//   <div class="news-item">
+//     <a href="${news.link}">
+//       <div class="news-img">
+//         <img
+//           src="${news.img}"
+//           alt="news"
+//         />
+//       </div>
+//       <div class="news-content">
+//         <span>TIN TỨC</span>
+//         <div class="news-title">
+//           ${news.title}
+//         </div>
+//         <p class="news-desc">
+//           ${news.desc}
+//         </p>
+//       </div>
+//     </a>
+//   </div>`;
+// }).join("");
 //news-event
 const NewsEvent = document.querySelector(".news-event-list");
 NewsEvent.innerHTML = NewsListData.map((news) => {

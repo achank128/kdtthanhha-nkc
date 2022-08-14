@@ -380,12 +380,32 @@ button {
 }
 
 #home {
-  padding: 20px 0;
   margin-bottom: 40px;
+}
+#home .feature-container {
+  position: relative;
+  margin-bottom: 40px;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+#home .feature-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#home .feature-container .wrapper {
+  background-color: rgba(7, 73, 113, 0.3);
+  flex-direction: column;
+  width: 100%;
 }
 #home .sider-container {
   display: flex;
   margin-bottom: 40px;
+  padding-top: 20px;
 }
 @media only screen and (max-width: 600px) {
   #home .sider-container {
