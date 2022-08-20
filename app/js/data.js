@@ -3,7 +3,7 @@ export const FACEBOOK = `https://www.facebook.com/profile.php?id=100064734504163
 export const PHONE = "0562.398.999";
 export const PHONECALL = "0562398999";
 export const MAIL = "nguyenvanhung28686@gmail.com";
-export const MAP = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14906.05517069742!2d105.77527041626236!3d20.931872211441487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad494e8f8521%3A0x9d70aa1dd7ac2e54!2zVGhhbmggSMOgIE3GsOG7nW5nIFRoYW5oIENpZW5jbyA1!5e0!3m2!1svi!2s!4v1657262025127!5m2!1svi!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+export const MAP = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.440478126862!2d105.7904393!3d20.934818999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad172b6cd131%3A0x8446ca51c669ab1c!2zQuG6pXQgxJDhu5luZyBT4bqjbiDEkOG6oWkgVMOtbiAtIFRoYW5oIEjDoCBDaWVuY28gNQ!5e0!3m2!1svi!2sus!4v1660991833988!5m2!1svi!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
 export const ADDRESS_COMPANY = `Khu B1.4, Liền kề 09 VT 23, Khu đô thị Thanh Hà Mường Thanh Cienco 5`;
 export const COMPANY = "KDT Thanh Hà - Mường Thanh Cienco 5";
 
