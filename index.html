@@ -53,10 +53,7 @@
           <div class="nav-left">
             <a href="./index.html">
               <div class="logo-img">
-                <img
-                  src="https://cienco5land.vn/wp-content/uploads/2021/03/logo-muong-thanh.png"
-                  alt="logo"
-                />
+                <img src="./assests/logo-muong-thanh.png" alt="logo" />
               </div>
             </a>
           </div>
@@ -120,9 +117,9 @@
       <div id="home">
         <!-- Features -->
         <div class="feature-container">
-          <img src="./assests/home.jpg" alt="" />
+          <img class="background" src="./assests/home.jpg" alt="" />
           <div class="wrapper">
-            <div class="text">
+            <div class="intro">
               <h1>Khu Đô Thị Thanh Hà</h1>
               <p>
                 Dự án Khu đô thị Thanh Hà mang đậm phong cách thiết kế châu Âu
@@ -132,6 +129,37 @@
               <a href="./gioi-thieu.html">
                 <button>Giới Thiệu</button>
               </a>
+            </div>
+            <div class="subscribe">
+              <div class="content">
+                <img src="./assests/logo-muong-thanh.png" alt="logo" />
+                <h3>
+                  Để lại thông tin chúng tôi sẽ liên hệ báo giá cho bạn sớm
+                  nhất!
+                </h3>
+                <form id="form-subscribe">
+                  <input
+                    id="name"
+                    class="text-input"
+                    type="text"
+                    placeholder="Họ và tên"
+                  />
+                  <input
+                    required
+                    id="phone"
+                    class="text-input"
+                    type="text"
+                    placeholder="Số điện thoại"
+                  />
+                  <input type="radio" id="cc" name="type" value="cc" />
+                  <label for="cc">Chung cư</label>
+                  <input type="radio" id="bt" name="type" value="bt" />
+                  <label for="bt">Biệt thự</label>
+                  <input type="radio" id="lk" name="type" value="lk" />
+                  <label for="lk">Liền kề</label>
+                  <button class="btn-sub" type="submit">ĐĂNG KÝ</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -429,7 +457,12 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
+      integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script type="module" src="./app/js/header.js"></script>
     <script type="module" src="./app/js/footer.js"></script>
     <script type="module" src="./app/js/index.js"></script>

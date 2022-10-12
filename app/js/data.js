@@ -14,7 +14,7 @@ export const NewsListData = [
     img: "./assests/tienichnoikhu.jpg",
     title: "5 YẾU TỐ VÀNG TẠO NÊN TÊN TUỔI KHU ĐÔ THỊ THANH HÀ CIENCO 5",
     desc: "Nếu bạn là “dân” đầu tư bất động sản thì chắc chắn không thể nào ...",
-    link: "./bai-vet.html?5-yeu-to-tao-nen-ten-tuoi-khu-do-thi-thanh-ha",
+    link: "./bai-viet.html?5-yeu-to-tao-nen-ten-tuoi-khu-do-thi-thanh-ha",
     html: `
     <div class="container">
       <article class="news-content">

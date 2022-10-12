@@ -1,5 +1,35 @@
 import { Experience, NewsListData } from "./data.js";
 
+const createUser = async (data) => {
+  const btn = document.querySelector(".btn-sub");
+  btn.setAttribute("disabled", true);
+  btn.style.opacity = "0.8";
+  try {
+    const res = await axios.post(
+      "https://kdtthanhha.herokuapp.com/api/users",
+      data
+    );
+    console.log(res.data);
+  } catch (error) {
+    console.log(error);
+  }
+  btn.style.opacity = "1";
+  btn.removeAttribute("disabled");
+};
+
+const formSub = document.getElementById("form-subscribe");
+formSub.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = document.getElementById("name");
+  const phone = document.getElementById("phone");
+  const type = formSub.querySelector('input[name="type"]:checked');
+  createUser({
+    name: name?.value,
+    phone: phone?.value,
+    type: type?.value,
+  });
+});
+
 const slider = document.querySelector(".slider");
 const swiperWrapper = slider.querySelector(".swiper-wrapper");
 swiperWrapper.innerHTML = NewsListData.map((newItem) => {
