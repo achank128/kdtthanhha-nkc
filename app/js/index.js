@@ -32,8 +32,9 @@ formSub.addEventListener("submit", (e) => {
 
 const slider = document.querySelector(".slider");
 const swiperWrapper = slider.querySelector(".swiper-wrapper");
-swiperWrapper.innerHTML = NewsListData.map((newItem) => {
-  return `
+swiperWrapper.innerHTML = NewsListData.reverse()
+  .map((newItem) => {
+    return `
   <div class="swiper-slide">
     <a
       href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
@@ -52,7 +53,8 @@ swiperWrapper.innerHTML = NewsListData.map((newItem) => {
     </a>
   </div>
   `;
-}).join("");
+  })
+  .join("");
 
 const NewSlide = new Swiper(".swiperNews", {
   slidesPerView: 1,
@@ -135,9 +137,10 @@ const ExSlide = new Swiper(".swiperExperience", {
 //news-event
 const NewsEvent = document.querySelector(".news-event-list");
 
-NewsEvent.innerHTML = NewsListData.map((news, i) => {
-  if (i < 7)
-    return `
+NewsEvent.innerHTML = NewsListData.reverse()
+  .map((news, i) => {
+    if (i < 7)
+      return `
   <a href=${news.link}>
   <div class="news-event-item">
     <div class="news-event-img">
@@ -155,4 +158,5 @@ NewsEvent.innerHTML = NewsListData.map((news, i) => {
   </div>
 </a>
   `;
-}).join("");
+  })
+  .join("");

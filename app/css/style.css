@@ -1241,7 +1241,7 @@ button {
   color: #074971;
   margin-bottom: 20px;
 }
-#news-item .news-content .text {
+#news-item .news-content p {
   margin-bottom: 20px;
   font-size: 1.125rem;
 }
@@ -1274,7 +1274,7 @@ button {
   width: 100%;
   margin-bottom: 30px;
 }
-#news-item .news-content .img-text {
+#news-item .news-content .img p {
   padding: 6px;
   margin-top: -6px;
   text-align: center;

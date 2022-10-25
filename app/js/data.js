@@ -1693,6 +1693,415 @@ export const NewsListData = [
     </div>
     `,
   },
+  {
+    id: 10,
+    name: "se-cap-phep-xay-dung-tai-khu-djo-thi-thanh-ha-djoi-voi-khu-djat-khong-co-vi-pham",
+    img: "https://photo-cms-baophapluat.epicdn.me/w800/Uploaded/2022/athlrainaghat/2022_06_14/c97f2dca9e7ac58159769e161d14a29820220612115739-5957140-5082.jpg",
+    title:
+      "SẼ CẤP PHÉP XÂY DỰNG TẠI KHU ĐÔ THỊ THANH HÀ ĐỐI VỚI KHU ĐẤT KHÔNG CÓ VI PHẠM",
+    desc: "(PLVN) -  Bà Phùng Thị Hồng Hà, Phó Chủ tịch Thường trực Hội đồng nhân dân (HĐND) thành phố Hà Nội yêu cầu các sở liên quan khẩn trương làm rõ trách nhiệm ...",
+    link: "./bai-viet.html?se-cap-phep-xay-dung-tai-khu-djo-thi-thanh-ha-djoi-voi-khu-djat-khong-co-vi-pham",
+    html: `
+    <div class="container">
+          <article class="news-content">
+            <h2 class="title-main">
+              Sẽ cấp phép xây dựng tại Khu đô thị Thanh Hà đối với khu đất không
+              có vi phạm
+            </h2>
+            <div class="date-posted">POSTED ON 15/09/2022</div>
+            <p class="text">
+              <b>
+                (PLVN) - Bà Phùng Thị Hồng Hà, Phó Chủ tịch Thường trực Hội đồng
+                nhân dân (HĐND) thành phố Hà Nội yêu cầu các sở liên quan khẩn
+                trương làm rõ trách nhiệm, rà soát lại toàn bộ, từ đó xử lý dứt
+                điểm vi phạm và cấp phép cho những khu đất không có vi phạm để
+                người dân xây dựng.
+              </b>
+            </p>
+            <div class="img">
+              <img
+                src="https://photo-cms-baophapluat.epicdn.me/w800/Uploaded/2022/athlrainaghat/2022_06_14/c97f2dca9e7ac58159769e161d14a29820220612115739-5957140-5082.jpg"
+                alt="tin-tuc"
+              />
+              <p class="img-text">
+                Phó Chủ tịch Thường trực HĐND thành phố Hà Nội Phùng Thị Hồng Hà
+                phát biểu tại buổi tiếp xúc cử tri.
+              </p>
+            </div>
+            <p>
+              Tổ đại biểu HĐND Thành phố thuộc Đơn vị bầu cử số 14 vừa có buổi
+              tiếp xúc cử tri huyện Thanh Oai, theo hình thức trực tuyến.
+            </p>
+            <p>
+              Tại buổi tiếp xúc, một trong những vấn đề quan trọng cử tri kiến
+              nghị là xem xét việc cấp phép xây dựng cho những thửa đất không vi
+              phạm quy hoạch để người dân được xây dựng tại Khu đô thị Thanh Hà.
+            </p>
+            <p>
+              Sau khi nghe kiến nghị của cử tri, bà Phùng Thị Hồng Hà, Ủy viên
+              Ban Thường vụ Thành ủy, Phó Chủ tịch Thường trực HĐND thành phố Hà
+              Nội đã yêu cầu lãnh đạo Sở Xây dựng và lãnh đạo Sở Tài nguyên Môi
+              trường trả lời rõ thêm các nội dung mà cử tri phản ánh.
+            </p>
+            <p>
+              Về việc cấp phép xây dựng tại Khu đô thị Thanh Hà, Phó Chủ tịch
+              Thường trực HĐND thành phố Hà Nội yêu cầu Sở Xây dựng, Sở Tài
+              nguyên Môi trường làm rõ về trách nhiệm quản lý của cơ quan quản
+              lý nhà nước, rà soát lại toàn bộ đối với những vi phạm thì xử lý,
+              với những khu đất không có vi phạm thì phải cấp phép để người dân
+              xây dựng.
+            </p>
+            <p>
+              Bà Phùng Thị Hồng Hà nhấn mạnh, phải quyết liệt đôn đốc, yêu cầu
+              Chủ đầu tư thực hiện kết luận thanh tra. Đề nghị UBND Thành phố
+              trả lời rõ nội dung này vào kỳ tiếp xúc cử tri sau kỳ họp thường
+              kỳ giữa năm, nội dung trả lời của Sở Xây dựng, Sở Tài nguyên Môi
+              trường chưa rõ, cuộc họp chưa có Sở Quy hoạch - Kiến trúc. Việc
+              giải quyết phải rõ lộ trình, thời hạn, trách nhiệm của Chủ đầu tư
+              và cơ quan quản lý, biện pháp xử lý.
+            </p>
+            <p>
+              Cũng tại buổi tiếp xúc, một số cử tri kiến nghị về việc bỏ hạn mức
+              đất đối với đất do cha ông để lại ở khu vực nông thôn; xem xét lại
+              quy định về chiều cao tối đa nhà xưởng sản xuất là 2 tầng như hiện
+              nay; Kiến nghị về việc cung cấp nước sạch cho người dân trên địa
+              bàn...
+            </p>
+
+            <div class="next-post"></div>
+          </article>
+        </div>
+    `,
+  },
+  {
+    id: 11,
+    name: "yeu-cau-quy-iv2023-phai-hoan-thanh-giai-phong-mat-bang-duong-vanh-dai-4-vung-thu-do",
+    img: "https://cdnmedia.baotintuc.vn/Upload/YZmStSDTjb0M07hFJ2gA/files/2022/07/31/vanh-dai-310722.jpg",
+    title:
+      "YÊU CẦU QUÝ IV/2023 PHẢI HOÀN THÀNH GIẢI PHÓNG MẶT BẰNG ĐƯỜNG VÀNH ĐAI 4 - VÙNG THỦ ĐÔ",
+    desc: "Xác định việc thực hiện Dự án đầu tư xây dựng đường Vành đai 4 - Vùng Thủ đô là nhiệm vụ chính trị trọng tâm, quan trọng, cấp bách ...",
+    link: "./bai-viet.html?yeu-cau-quy-iv2023-phai-hoan-thanh-giai-phong-mat-bang-duong-vanh-dai-4-vung-thu-do",
+    html: `
+        <div class="container">
+          <article class="news-content">
+            <h2 class="title-main">
+              Yêu cầu quý IV/2023 phải hoàn thành giải phóng mặt bằng đường Vành
+              đai 4 - Vùng Thủ đô
+            </h2>
+            <div class="date-posted">POSTED ON 14/09/2022</div>
+            <p class="text">
+              <b>
+                Xác định việc thực hiện Dự án đầu tư xây dựng đường Vành đai 4 -
+                Vùng Thủ đô là nhiệm vụ chính trị trọng tâm, quan trọng, cấp
+                bách, Ban Thường vụ Thành ủy Hà Nội đã ban hành Chỉ thị số
+                16-CT/TU về tăng cường lãnh đạo, chỉ đạo thực hiện công tác giải
+                phóng mặt bằng, tái định cư phục vụ dự án này. Theo đó, Ban
+                Thường vụ Thành uỷ Hà Nội yêu cầu trong quý IV/2023 phải hoàn
+                thành giải phóng mặt bằng dự án này.
+              </b>
+            </p>
+            <div class="img">
+              <img
+                src="https://cdnmedia.baotintuc.vn/Upload/YZmStSDTjb0M07hFJ2gA/files/2022/07/31/vanh-dai-310722.jpg"
+                alt="tin-tuc"
+              />
+              <p class="img-text">
+                Tuyến đường bộ trên cao dọc đường Vành đai 2, đoạn từ cầu Vĩnh
+                Tuy đến Ngã Tư Sở.
+              </p>
+            </div>
+            <p>
+              Bí thư Thành ủy Hà Nội Đinh Tiến Dũng nhấn mạnh: Dự án đầu tư xây
+              dựng đường Vành đai 4 - Vùng Thủ đô là dự án có ý nghĩa đặc biệt
+              quan trọng, góp phần mở rộng không gian phát triển cho Thủ đô, tạo
+              điều kiện kéo giãn mật độ dân cư tại khu vực nội đô, góp phần giảm
+              ùn tắc giao thông, từng bước chuyển dịch cơ cấu kinh tế khu vực
+              hai bên tuyến đường và khu vực ngoại thành; tăng cường khả năng
+              kết nối, tạo động lực, tác động lan tỏa liên vùng, tạo bước đột
+              phá trong phát triển kinh tế - xã hội. Dự án đi qua địa bàn 7
+              quận, huyện của Hà Nội dài 58,2 km, gồm: Sóc Sơn, Mê Linh, Đan
+              Phượng, Hoài Đức, Hà Đông, Thanh Oai, Thường Tín.
+            </p>
+            <p>
+              Do khối lượng công việc liên quan đến giải phóng mặt bằng, thu hồi
+              đất phục vụ thi công dự án rất lớn, Ban Thường vụ Thành ủy chỉ đạo
+              7 nhóm nhiệm vụ để tập trung sự lãnh đạo, chỉ đạo của các cấp ủy
+              Đảng và của cả hệ thống chính trị từ thành phố đến cơ sở, sự ủng
+              hộ của tập thể, cá nhân người sử dụng đất khi Nhà nước tiến hành
+              thu hồi đất, bảo đảm hoàn thành đúng tiến độ.
+            </p>
+            <p>
+              Ban Thường vụ Thành ủy yêu cầu các cấp ủy, chính quyền, Ủy ban Mặt
+              trận Tổ quốc và các tổ chức chính trị - xã hội từ thành phố đến cơ
+              sở (nơi có tuyến đường Vành đai 4 đi qua) mở đợt sinh hoạt chính
+              trị với các hình thức phù hợp nhằm tuyên truyền sâu rộng trong cán
+              bộ, đảng viên và nhân dân về nội dung: Nghị quyết của Quốc hội về
+              Dự án đầu tư xây dựng đường Vành đai 4 - Vùng Thủ đô Hà Nội, tầm
+              quan trọng đặc biệt, ý nghĩa của dự án; xác định đây là nhiệm vụ
+              chính trị trọng tâm, quan trọng, cấp bách của cấp ủy, chính quyền,
+              Ủy ban Mặt trận tổ quốc và các tổ chức chính trị - xã hội địa
+              phương, đơn vị trong thời gian tới.
+            </p>
+            <p>
+              Theo đó, Ban Thường vụ Thành ủy chỉ đạo phải thống nhất chính sách
+              về bồi thường, hỗ trợ, tái định cư, giải phóng mặt bằng, bảo đảm
+              tối đa quyền và lợi ích hợp pháp của người có đất bị thu hồi theo
+              quy định và đặc thù của dự án; vận động nhân dân thực hiện chủ
+              trương, quyết định thu hồi đất; tăng cường kiểm tra, giám sát việc
+              thực hiện đường lối, chủ trương của Đảng, chính sách, pháp luật
+              của nhà nước về quản lý dân cư, quy hoạch, đất đai, trật tự xây
+              dựng, bồi thường, hỗ trợ, tái định cư; tiếp công dân, tiếp nhận
+              các kiến nghị, phản ánh, khiếu nại, tố cáo và giải quyết, trả lời
+              đúng quy định pháp luật…
+            </p>
+            <p>
+              Các quận ủy, huyện ủy phải thành lập Tổ công tác cấp huyện do đồng
+              chí Bí thư cấp ủy làm tổ trưởng, đồng chí Chủ tịch UBND quận,
+              huyện làm tổ phó; thành lập bộ phận tiếp công dân chuyên trách
+              phục vụ dự án từ thành phố đến các xã, phường, thị trấn. Đồng
+              thời, các quận, huyện phải có trách nhiệm ban hành kế hoạch tổ
+              chức thực hiện các nội dung công việc thuộc trách nhiệm của địa
+              phương; phân công nhiệm vụ cụ thể cho đồng chí Bí thư, đồng chí
+              Phó Bí thư, các đồng chí Ủy viên Ban Thường vụ, Ủy viên Ban Chấp
+              hành, các phòng, ban, ngành, các xã, phường nơi có dự án đi qua và
+              huy động toàn bộ hệ thống chính trị vào cuộc, phát huy vai trò
+              tiền phong gương mẫu của cán bộ, đảng viên, vai trò của người đứng
+              đầu cấp ủy, chính quyền địa phương, đơn vị.
+            </p>
+            <p>
+              Theo chỉ đạo của Ban Thường vụ Thành uỷ Hà Nội, mỗi địa phương cần
+              xác định rõ lộ trình, thời hạn hoàn thành; ban hành quy chế hoạt
+              động của Ban Chỉ đạo, Tổ công tác; giải quyết kịp thời, đúng quy
+              định của pháp luật đối với các khiếu nại, tố cáo liên quan đến đất
+              đai, bảo đảm không phát sinh điểm nóng, phức tạp về an ninh trật
+              tự; giải quyết hài hòa lợi ích của Nhà nước, doanh nghiệp và người
+              dân. Đặc biệt, phải gắn xử lý trách nhiệm người đứng đầu nếu không
+              hoàn thành đúng tiến độ giải phóng mặt bằng để ảnh hưởng đến tiến
+              độ chung của toàn dự án; định kỳ giao ban kiểm điểm tình hình, kết
+              quả thực hiện, báo cáo Ban Thường vụ Thành ủy và kịp thời đề xuất,
+              báo cáo UBND thành phố giải quyết các vướng mắc, khó khăn trong
+              công tác giải phóng mặt bằng.
+            </p>
+            <p>
+              Chỉ thị nêu rõ tiến độ thực hiện cụ thể: Trước quý II/2023, các
+              huyện hoàn thành đầu tư xây dựng hạ tầng kỹ thuật khu tái định cư
+              phục vụ giải phóng mặt bằng; trước quý III/2023, các quận, huyện
+              tổ chức bàn giao 60 - 70% diện tích đất đã giải phóng mặt bằng
+              xong và bàn giao toàn bộ phần diện tích còn lại trong quý IV/2023.
+            </p>
+            <p>
+              Thực hiện chỉ đạo của Ban Thường vụ Thành uỷ Hà Nội, Chủ tịch UBND
+              thành phố Hà Nội Trần Sỹ Thanh đã ký quyết định về việc ủy quyền
+              phê duyệt và giao nhiệm vụ triển khai thủ tục đầu tư các dự án xây
+              dựng khu tái định cư phục vụ giải phóng mặt bằng các đoạn tuyến
+              của Dự án đầu tư xây dựng đường Vành đai 4 - Vùng Thủ đô Hà Nội.
+            </p>
+            <p>
+              Chủ tịch UBND thành phố Hà Nội ủy quyền cho Chủ tịch UBND 7 quận,
+              huyện có đoạn đường Vành đai 4 đi qua tổ chức lập, thẩm định, phê
+              duyệt và phê duyệt điều chỉnh Báo cáo nghiên cứu khả thi, kế hoạch
+              lựa chọn nhà thầu các dự án đầu tư xây dựng khu tái định cư phục
+              vụ giải phóng mặt bằng. Theo đó, các quận, huyện phải chủ trì,
+              phối hợp với các Sở: Tài nguyên và Môi trường, Quy hoạch - Kiến
+              trúc, Xây dựng và Ban Quản lý các dự án đầu tư xây dựng công trình
+              giao thông thành phố Hà Nội đề xuất danh mục các dự án đầu tư xây
+              dựng khu tái định cư (quy hoạch, quy mô, các hạng mục đầu tư, dự
+              kiến tổng mức đầu tư…) báo cáo UBND thành phố xem xét chấp thuận
+              trước khi triển khai các bước tiếp theo. UBND các quận, huyện được
+              thực hiện nhiệm vụ của chủ đầu tư trong việc xây dựng các khu tái
+              định cư, bảo đảm tuân thủ quy định hiện hành.
+            </p>
+            <div class="next-post"></div>
+          </article>
+        </div>
+    `,
+  },
+  {
+    id: 12,
+    name: "ky-ket-giao-uoc-thi-dua-thuc-hien-du-an-duong-vanh-dai-4-vung-thu-do-ha-noi",
+    img: "https://cdnmedia.baotintuc.vn/Upload/rGkvwNpj74Z1EcpzQ6ltA/files/2022/09/tuan6/du-an-30922.jpg",
+    title:
+      "KÝ KẾT GIAO ƯỚC THI ĐUA THỰC HIỆN DỰ ÁN ĐƯỜNG VÀNH ĐAI 4 - VÙNG THỦ ĐÔ HÀ NỘI",
+    desc: "Xác định việc thực hiện Dự án đầu tư xây dựng đường Vành đai 4 - Vùng Thủ đô là nhiệm vụ chính trị trọng tâm, quan trọng, cấp bách ...",
+    link: "./bai-viet.html?ky-ket-giao-uoc-thi-dua-thuc-hien-du-an-duong-vanh-dai-4-vung-thu-do-ha-noi",
+    html: `
+        <div class="container">
+          <article class="news-content">
+            <h2 class="title-main">
+              Ký kết giao ước thi đua thực hiện Dự án đường Vành đai 4 - Vùng
+              Thủ đô Hà Nội
+            </h2>
+            <div class="date-posted">POSTED ON 30/09/2022</div>
+            <p class="text">
+              <b>
+                Chiều 30/9, Ban Chỉ đạo triển khai Dự án đầu tư xây dựng đường
+                Vành đai 4 - Vùng Thủ đô Hà Nội tổ chức hội nghị cam kết tiến độ
+                và ký giao ước thi đua trong công tác giải phóng mặt bằng và tái
+                định cư Dự án đầu tư xây dựng đường Vành đai 4 - Vùng Thủ đô Hà
+                Nội.
+              </b>
+            </p>
+            <div class="img">
+              <img
+                src="https://cdnmedia.baotintuc.vn/Upload/rGkvwNpj74Z1EcpzQ6ltA/files/2022/09/tuan6/du-an-30922.jpg"
+                alt="tin-tuc"
+              />
+              <p>
+                Bí thư Thành ủy Hà Nội Đinh Tiến Dũng phát động phong trào thi
+                đua thực hiện công tác GPMB, tái định cư Dự án đầu tư xây dựng
+                đường Vành đai 4 - Vùng Thủ đô.
+              </p>
+            </div>
+            <p>
+              Chủ trì Hội nghị có Ủy viên Bộ Chính trị, Bí thư Thành ủy, Trưởng
+              Đoàn đại biểu Quốc hội thành phố Hà Nội Đinh Tiến Dũng, Trưởng Ban
+              Chỉ đạo triển khai Dự án đầu tư xây dựng đường Vành đai 4 - Vùng
+              Thủ đô Hà Nội; các Ủy viên Trung ương Đảng, Phó Trưởng ban Chỉ
+              đạo: Bí thư Tỉnh ủy Hưng Yên Nguyễn Hữu Nghĩa, Bí thư Tỉnh ủy Bắc
+              Ninh Nguyễn Anh Tuấn, Phó Bí thư Thành ủy, Chủ tịch Ủy ban nhân
+              dân thành phố Hà Nội Trần Sỹ Thanh.
+            </p>
+            <p>
+              Tại Hội nghị, Trưởng Ban Tổ chức Thành ủy Hà Nội Vũ Đức Bảo đã
+              công bố Quyết định số 3617-QĐ/TU ngày 29/9/2022 về thành lập Ban
+              Chỉ đạo triển khai Dự án đầu tư xây dựng đường Vành đai 4 -Vùng
+              Thủ đô Hà Nội.
+            </p>
+            <p>
+              Phó Chủ tịch Ủy ban nhân dân thành phố Hà Nội Dương Đức Tuấn trình
+              bày bản Giao ước thi đua thực hiện công tác giải phóng mặt bằng và
+              tái định cư Dự án đầu tư xây dựng đường Vành đai 4 - Vùng Thủ đô
+              Hà Nội.
+            </p>
+            <p>
+              Lãnh đạo thành phố Hà Nội, tỉnh Bắc Ninh và Hưng Yên đã bày tỏ
+              thống nhất cao với 6 nội dung giao ước chung, 3 nội dung thi đua
+              cụ thể. Theo đó, thống nhất xây dựng, trình Ủy ban nhân dân thành
+              phố Hà Nội và các tỉnh Hưng Yên, Bắc Ninh cơ chế chính sách áp
+              dụng thực hiện công tác bồi thường, hỗ trợ, tái định cư và bổ sung
+              danh mục kế hoạch sử dụng đất để thực hiện Dự án đầu tư xong trong
+              tháng 10/2022. Các địa phương tổ chức lập, phê duyệt, cắm mốc giải
+              phóng mặt bằng và bàn giao ranh giới giải phóng mặt bằng cơ bản
+              hoàn thành trong tháng 10/2022 và hoàn thành toàn bộ chậm nhất
+              trong tháng 11/2022; phê duyệt phương án bồi thường, hỗ trợ và tái
+              định cư, ban hành Quyết định thu hồi đất và giải phóng mặt bằng,
+              tái định cư xong toàn dự án đầu tư hoàn thành tháng 12/2023.
+            </p>
+            <p>
+              Bí thư Thành ủy Hà Nội Đinh Tiến Dũng đã phát động phong trào thi
+              đua thực hiện công tác giải phóng mặt bằng, tái định cư Dự án đầu
+              tư xây dựng đường Vành đai 4 - Vùng Thủ đô với chủ đề: "Đoàn kết,
+              sáng tạo, thống nhất, thi đua đẩy nhanh tiến độ công tác giải
+              phóng mặt bằng, tái định cư phục vụ thi công của dự án".
+            </p>
+            <p>
+              Bí thư Thành ủy Hà Nội nhấn mạnh, tiến độ giải phóng mặt bằng, tái
+              định cư luôn là điểm mấu chốt trong việc triển khai các dự án đầu
+              tư. Đặc biệt, với dự án có khối lượng lớn và có nhiều điểm đặc thù
+              như Dự án đường Vành đai 4 - Vùng Thủ đô, công tác giải phóng mặt
+              bằng, tái định cư là vô cùng quan trọng, có thể nói đây chính là
+              chìa khóa quyết định sự thành công của dự án. Nhận thức được điều
+              đó, thành phố Hà Nội, tỉnh Hưng Yên và Bắc Ninh đã chủ động xây
+              dựng và ban hành kế hoạch phối hợp triển khai dự án. Mỗi tỉnh,
+              thành phố đều đã ban hành kế hoạch thực hiện; trong đó, đã thống
+              nhất xác định phấn đấu bàn giao 70% diện tích mặt bằng của các gói
+              thầu xây lắp trước ngày 30/6/2023 để phục vụ khởi công Dự án và cơ
+              bản bàn giao diện tích còn lại trước ngày 31/12/2023.
+            </p>
+            <p>
+              Bí thư Thành ủy Hà Nội nhấn mạnh, với quy mô và tầm quan trọng của
+              dự án, qua tính toán có thể thấy, diện tích đất cần giải phóng mặt
+              bằng là rất lớn. Tổng diện tích đất cần thu hồi để triển khai dự
+              án là 1.341 ha, trong đó, Hà Nội cần thu hồi khoảng 741 ha tại địa
+              bàn 7 quận, huyện (Sóc Sơn, Mê Linh, Đan Phượng, Hoài Đức, Hà
+              Đông, Thường Tín). Bắc Ninh cần thu hồi khoảng 326 ha tại địa bàn
+              của 4 huyện, thành phố (Thuận Thành, Quế Võ, thành phố Bắc Ninh,
+              Gia Bình). Hưng Yên cần thu hồi khoảng 274 ha tại địa bàn của 4
+              huyện (Văn Giang, Khoái Châu; Yên Mỹ, Văn Lâm).
+            </p>
+            <p>
+              Bí thư Thành ủy Đinh Tiến Dũng nêu rõ, phong trào thi đua nhằm
+              thúc đẩy, khích lệ, động viên các cấp, các ngành của ba địa phương
+              cùng nỗ lực, phấn đấu triển khai các nhiệm vụ, đồng thời thể hiện
+              quyết tâm chính trị, sự vào cuộc của toàn hệ thống chính trị, huy
+              động sức mạnh tổng hợp và phát huy trí tuệ tập thể trong quá trình
+              triển khai công tác giải phóng mặt bằng, tái định cư nhằm đảm bảo
+              tiến độ dự án mà Trung ương, Quốc hội, Chính phủ đã tin tưởng giao
+              cho 3 tỉnh, thành phố.
+            </p>
+            <p>
+              Bí thư Thành ủy Hà Nội đề nghị các cấp, các ngành của 3 tỉnh,
+              thành phố quán triệt và tập trung làm tốt công tác tuyên truyền,
+              nâng cao nhận thức và tổ chức thực hiện tốt chủ trương, đường lối
+              của Đảng, chính sách của Nhà nước về cơ chế, chính sách trong bồi
+              thường, hỗ trợ và tái định cư, nhất là quán triệt sâu sắc sự cần
+              thiết, cấp bách của việc sớm giải phóng mặt bằng đầu tư dự án làm
+              cơ sở cho các địa phương công bố rộng rãi trên các phương tiện
+              thông tin đại chúng để người dân có đất bị ảnh hưởng biết, tạo sự
+              đồng thuận và thống nhất cao trong việc thu hồi, bồi thường giải
+              phóng mặt bằng.
+            </p>
+            <p>
+              Các địa phương huy động sự vào cuộc của cả hệ thống chính trị,
+              tăng cường cải cách hành chính, duy trì hiệu quả việc giải quyết
+              thủ tục hành chính; xây dựng, hoàn thiện các cơ chế, chính sách
+              khuyến khích, ưu đãi và sử dụng hiệu quả các nguồn lực trên địa
+              bàn; thực hiện nghiêm kỷ cương, kỷ luật, chống tiêu cực, lãng phí;
+              thực hiện tốt công tác thanh tra, kiểm tra, giám sát việc thực
+              hiện các nhiệm vụ để kịp thời tháo gỡ khó khăn, vướng mắc và xử lý
+              nghiêm những sai phạm, tiêu cực trong quá trình tổ chức thực hiện…
+            </p>
+            <div class="img">
+              <img
+                src="https://cdnmedia.baotintuc.vn/Upload/rGkvwNpj74Z1EcpzQ6ltA/files/2022/09/tuan6/du-an1-30922.jpg"
+                alt=""
+              />
+              <p>
+                Lễ ký kết giao ước thi đua trong công tác giải phóng mặt bằng và
+                tái định cư Dự án đầu tư xây dựng đường Vành đai 4 - Vùng Thủ đô
+                Hà Nội.
+              </p>
+            </div>
+            <p>
+              Trên cơ sở giao ước thi đua, các quận, huyện, xã, phường thuộc Thủ
+              đô Hà Nội và tỉnh Hưng Yên, tỉnh Bắc Ninh cần chủ động xây dựng,
+              tổ chức các phong trào thi đua thiết thực, gắn với nhiệm vụ chính
+              trị - xã hội của từng địa phương, cũng như công tác xác định nguồn
+              gốc đất, kiểm kê tài sản trên đất...
+            </p>
+            <p>
+              Bí thư Tỉnh ủy Bắc Ninh Nguyễn Anh Tuấn cho biết, xác định đây là
+              một dự án trọng điểm quốc gia, nên tỉnh đã thành lập Ban Chỉ đạo,
+              do trực tiếp Bí thư Tỉnh ủy làm Trưởng ban. 4 huyện, thành phố có
+              dự án đi qua đã thành lập Hội đồng bồi thường, hỗ trợ tái định cư.
+              Qua rà soát, địa bàn tỉnh có một số khó khăn, trong đó có một số
+              khu vực lịch sử đất đai phức tạp. Tới đây, Tỉnh ủy sẽ có hội nghị
+              chuyên đề về dự án này, đồng thời chỉ đạo các đơn vị liên quan
+              tăng cường tuyên truyền, vận động, tạo đồng thuận cao đối với dự
+              án, hạn chế thấp nhất đơn thư và xử lý kịp thời các vấn đề phát
+              sinh.
+            </p>
+            <p>
+              Bí thư Tỉnh ủy Hưng Yên Nguyễn Hữu Nghĩa khẳng định, việc ký giao
+              ước thi đua là một hoạt động rất thiết thực, mở đầu cho một chuỗi
+              hoạt động triển khai của dự án. Nhấn mạnh đến vai trò và ý nghĩa
+              của Dự án đầu tư xây dựng đường Vành đai 4 - Vùng Thủ đô Hà Nội
+              đối với việc kết nối, phát triển kinh tế - xã hội của tỉnh, Bí thư
+              Tỉnh ủy Hưng Yên khẳng định quyết tâm sẽ triển khai giải phóng mặt
+              bằng đúng tiến độ.
+            </p>
+            <p>
+              Chủ tịch Ủy ban nhân dân thành phố Hà Nội, tỉnh Bắc Ninh và Hưng
+              Yên cùng Chủ tịch Ủy ban nhân dân 15 quận, huyện, thành phố của ba
+              địa phương đã ký Giao ước thi đua thực hiện công tác giải phóng
+              mặt bằng và tái định cư Dự án đầu tư xây dựng đường Vành đai 4 -
+              Vùng Thủ đô Hà Nội với các nội dung như trên.
+            </p>
+            <div class="next-post"></div>
+          </article>
+        </div>
+        `,
+  },
 ];
 
 export const Experience = [

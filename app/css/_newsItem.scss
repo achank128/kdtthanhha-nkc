@@ -22,7 +22,7 @@
       color: $blue-color;
       margin-bottom: 20px;
     }
-    .text {
+    p {
       margin-bottom: 20px;
       font-size: $font-med;
     }
@@ -54,13 +54,13 @@
     .img {
       width: 100%;
       margin-bottom: 30px;
-    }
-    .img-text {
-      padding: 6px;
-      margin-top: -6px;
-      text-align: center;
-      font-size: $font-sm;
-      background-color: $gray-bg-color;
+      p {
+        padding: 6px;
+        margin-top: -6px;
+        text-align: center;
+        font-size: $font-sm;
+        background-color: $gray-bg-color;
+      }
     }
     .img-sm {
       width: 70%;

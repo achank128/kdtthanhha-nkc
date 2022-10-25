@@ -2,8 +2,9 @@ import { NewsListData } from "./data.js";
 
 const NewsList = document.querySelector(".news-list");
 
-NewsList.innerHTML = NewsListData.map((news) => {
-  return `
+NewsList.innerHTML = NewsListData.reverse()
+  .map((news) => {
+    return `
   <div class="news-item">
     <a href=${news.link}>
       <div class="news-img">
@@ -23,4 +24,5 @@ NewsList.innerHTML = NewsListData.map((news) => {
       </div>
     </a>
   </div>`;
-}).join("");
+  })
+  .join("");
