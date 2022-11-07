@@ -2103,7 +2103,7 @@ export const NewsListData = [
         `,
   },
   {
-    id: 12,
+    id: 13,
     name: "sau-ngay-30-11-2022-neu-doanh-nghiep-du-an-khong-co-phuong-an",
     img: "./assests/01-tb.jpg",
     title:
