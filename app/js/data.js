@@ -2102,6 +2102,44 @@ export const NewsListData = [
         </div>
         `,
   },
+  {
+    id: 12,
+    name: "sau-ngay-30-11-2022-neu-doanh-nghiep-du-an-khong-co-phuong-an",
+    img: "./assests/01-tb.jpg",
+    title:
+      "SAU NGÀY 30/11/2022 NẾU DOANH NGHIỆP DỰ ÁN KHÔNG CÓ PHƯƠNG ÁN THỐNG NHẤT ĐỂ GIẢI QUYẾT VƯỚNG MẮC VÀ CAM KẾT TIẾP TỤC TRIỂN KHAI DỰ ÁN BT ĐƯỜNG TRỤC PHÍA NAM THÌ THÀNH PHỐ HÀ NỘI SẼ ...",
+    desc: "Sau ngày 30/11/2022 nếu doanh nghiệp dự án không có phương án thống nhất để giải quyết vướng mắc và cam kết tiếp tục triển khai dự án BT đường trục phía Nam thì thành phố Hà Nội sẽ ...",
+    link: "./bai-viet.html?sau-ngay-30-11-2022-neu-doanh-nghiep-du-an-khong-co-phuong-an",
+    html: `
+    <div class="container">
+    <article class="news-content">
+      <h2 class="title-main">
+        SAU NGÀY 30/11/2022 NẾU DOANH NGHIỆP DỰ ÁN KHÔNG CÓ PHƯƠNG ÁN
+        THỐNG NHẤT ĐỂ GIẢI QUYẾT VƯỚNG MẮC VÀ CAM KẾT TIẾP TỤC TRIỂN KHAI
+        DỰ ÁN BT ĐƯỜNG TRỤC PHÍA NAM THÌ THÀNH PHỐ HÀ NỘI SẼ ...
+      </h2>
+      <div class="date-posted">POSTED ON 30/10/2022</div>
+      <p class="text">
+        <b>
+          Sau ngày 30/11/2022 nếu doanh nghiệp dự án không có phương án
+          thống nhất để giải quyết vướng mắc và cam kết tiếp tục triển
+          khai dự án BT đường trục phía Nam thì thành phố Hà Nội sẽ rà
+          soát khối lượng đã thực hiện và chấm dứt thực hiện dự án đầu tư
+          BT để chuyển sang đầu tư công.
+        </b>
+      </p>
+      <div class="img-sm">
+        <img src="./assests/01-tb.jpg" alt="tin-tuc" />
+      </div>
+      <div class="img-sm">
+        <img src="./assests/02-tb.jpg" alt="tin-tuc" />
+      </div>
+
+      <div class="next-post"></div>
+    </article>
+  </div>
+        `,
+  },
 ];
 
 export const Experience = [
