@@ -7,9 +7,21 @@ export const MAP = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12
 export const ADDRESS_COMPANY = `Khu B1.4, Liền kề 09 VT 23, Khu đô thị Thanh Hà Mường Thanh Cienco 5`;
 export const COMPANY = "KDT Thanh Hà - Mường Thanh Cienco 5";
 
+export const Experience = [
+  "./assests/ex-1.jpg",
+  "./assests/ex-2.jpg",
+  "./assests/ex-9.jpg",
+  "./assests/ex-10.jpg",
+  "./assests/ex-4.jpg",
+  "./assests/ex-3.jpg",
+  "./assests/ex-5.jpg",
+  "./assests/ex-7.jpg",
+  "./assests/ex-6.jpg",
+];
+//---------------------------------------------------------------------------------
 export const NewsListData = [
   {
-    id: 1,
+    _id: 1,
     name: "5-yeu-to-tao-nen-ten-tuoi-khu-do-thi-thanh-ha",
     img: "./assests/tienichnoikhu.jpg",
     title: "5 YẾU TỐ VÀNG TẠO NÊN TÊN TUỔI KHU ĐÔ THỊ THANH HÀ CIENCO 5",
@@ -225,21 +237,12 @@ export const NewsListData = [
           thu nhập trung bình – khá cũng có thể sở hữu cho mình một căn hộ
           tại đây. Ngoài ra, bạn còn được hỗ trợ mua trả góp từ 10-35 năm.
         </p>
-
-        <div class="next-post">
-          <i class="fa-solid fa-arrow-right"></i>TIN TỨC KHÁC:
-          <a
-            href="./vi-tri-khu-do-thi-thanh-ha-chu-dau-tu-tap-doan-muong-thanh.html"
-          >
-            VỊ TRÍ KHU ĐÔ THỊ THANH HÀ – CHỦ ĐẦU TƯ TẬP ĐOÀN MƯỜNG THANH
-          </a>
-        </div>
       </article>
     </div>
     `,
   },
   {
-    id: 2,
+    _id: 2,
     name: "vi-tri-khu-do-thi-thanh-ha-chu-dau-tu-tap-doan-muong-thanh",
     img: "./assests/nambat.png",
     title: "VỊ TRÍ KHU ĐÔ THỊ THANH HÀ – CHỦ ĐẦU TƯ TẬP ĐOÀN MƯỜNG THANH",
@@ -417,21 +420,12 @@ export const NewsListData = [
           nghi. Với phân khúc giá tầm trung, chỉ với mức thu nhập trung bình
           khá là bạn có thể sở hữu căn hộ tại đây rồi.
         </p>
-
-        <div class="next-post">
-          <i class="fa-solid fa-arrow-right"></i>TIN TỨC KHÁC:
-          <a
-            href="./khong-nen-dau-tu-vao-bat-dong-san-thanh-ha-cienco5-neu-chua-biet-dieu-nay.html"
-          >
-            TÌM HIỂU CHỦ ĐẦU TƯ KHU ĐÔ THỊ THANH HÀ
-          </a>
-        </div>
       </article>
     </div>
     `,
   },
   {
-    id: 3,
+    _id: 3,
     name: "khong-nen-dau-tu-vao-bat-dong-san-thanh-ha-cienco5-neu-chua-biet-dieu-nay",
     img: "./assests/khongnen.jpg",
     title:
@@ -608,21 +602,12 @@ export const NewsListData = [
           trí thuận lợi chỉ khoảng 30 phút di chuyển vào thành phố.. Chắc
           chắn đây sẽ là lựa chọn tuyệt vời của bạn và tổ ấm của mình.
         </p>
-
-        <div class="next-post">
-          <i class="fa-solid fa-arrow-right"></i>TIN TỨC KHÁC:
-          <a
-            href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-          >
-            7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ
-          </a>
-        </div>
       </article>
     </div>
     `,
   },
   {
-    id: 4,
+    _id: 4,
     name: "7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo",
     img: "./assests/review-khu-do-thi-thanh-ha.jpg",
     title: "7 TIPS ĐẦU TƯ BẤT ĐỘNG SẢN KHU ĐÔ THỊ THANH HÀ KHÔNG LỖ",
@@ -796,18 +781,12 @@ export const NewsListData = [
           đầy đủ mà không phải khu đô thị tầm trung nào cũng có thể cung
           cấp.
         </p>
-        <div class="next-post">
-          <i class="fa-solid fa-arrow-right"></i>TIN TỨC KHÁC:
-          <a href="./5-yeu-to-tao-nen-ten-tuoi-khu-do-thi-thanh-ha.html "
-            >KIẾN TRÚC BIỆT THỰ THANH HÀ HÀ ĐÔNG CÓ GÌ ĐẶC BIỆT</a
-          >
-        </div>
       </article>
     </div>
     `,
   },
   {
-    id: 5,
+    _id: 5,
     name: "ha-noi-chot-chi-hon-23500-ty-dong-lam-duong-vanh-dai-4",
     img: "https://static-images.vnncdn.net/files/publish/2022/5/20/vanh-dai-4-237.jpg",
     title: "HÀ NỘI ‘CHỐT’ CHI HƠN 23.500 TỶ ĐỒNG LÀM ĐƯỜNG VÀNH ĐAI 4",
@@ -878,18 +857,12 @@ export const NewsListData = [
           thành phần đầu tư xây dựng cao tốc theo phương thức đối tác công
           tư loại hợp đồng BOT.
         </p>
-        <div class="next-post">
-          <i class="fa-solid fa-arrow-right"></i>TIN TỨC KHÁC:
-          <a href="./5-yeu-to-tao-nen-ten-tuoi-khu-do-thi-thanh-ha.html "
-            >KIẾN TRÚC BIỆT THỰ THANH HÀ HÀ ĐÔNG CÓ GÌ ĐẶC BIỆT</a
-          >
-        </div>
       </article>
     </div>
     `,
   },
   {
-    id: 5,
+    _id: 5,
     name: "ha-noi-lap-chi-gioi-duong-do-vanh-dai-4",
     img: "https://i1-vnexpress.vnecdn.net/2022/07/21/hu-o-ng-tuye-n-doa-n-qua-HN-jp-5965-7243-1658389029.png?w=1020&h=0&q=100&dpr=1&fit=crop&s=z-V1-ROCuzqYRvqS-HW-TA",
     title: "HÀ NỘI LẬP CHỈ GIỚI ĐƯỜNG ĐỎ VÀNH ĐAI 4",
@@ -984,13 +957,13 @@ export const NewsListData = [
           dựng công trình và phần đất dành cho đường giao thông hoặc công
           trình hạ tầng kỹ thuật, không gian công cộng khác.
         </p>
-        <div class="next-post"></div>
+
       </article>
     </div>
     `,
   },
   {
-    id: 6,
+    _id: 6,
     name: "xem-xet-cap-phep-xay-dung-tai-khu-do-thi-thanh-ha",
     img: "https://laodongthudo.vn/stores/news_dataimages/2022/062022/11/15/c97f2dca9e7ac58159769e161d14a298.jpg?rt=20220611153807",
     title: "XEM XÉT CẤP PHÉP XÂY DỰNG TẠI KHU ĐÔ THỊ THANH HÀ",
@@ -1094,13 +1067,13 @@ export const NewsListData = [
           và cơ quan quản lý, biện pháp xử lý.
         </p>
 
-        <div class="next-post"></div>
+
       </article>
     </div>
     `,
   },
   {
-    id: 7,
+    _id: 7,
     name: "cu-tri-kien-nghi-xay-dung-truong-hoc-cong-lap-tai-khu-do-thi-thanh-ha",
     img: "https://static.kinhtedothi.vn/w960/images/upload/2022/06/10/tx-1.JPG",
     title:
@@ -1217,13 +1190,13 @@ export const NewsListData = [
           cơ quan, các ngành chức năng xem xét giải quyết.
         </p>
 
-        <div class="next-post"></div>
+
       </article>
     </div>
     `,
   },
   {
-    id: 8,
+    _id: 8,
     name: "thong-tin-moi-nhat-ve-cap-phep-xay-dung-tro-lai-kdt-thanh-ha-cienco-5",
     img: "https://static.kinhtedothi.vn/w960/images/upload/2022/05/14/thanh-ha-2.jpg",
     title:
@@ -1413,13 +1386,13 @@ export const NewsListData = [
           xanh thoáng đãng như này” - anh Đ.V.T bày tỏ.
         </p>
 
-        <div class="next-post"></div>
+
       </article>
     </div>
     `,
   },
   {
-    id: 9,
+    _id: 9,
     name: "chot-thoi-gian-hoan-thanh-giai-phong-mat-bang-du-an-duong-vanh-dai-4",
     img: "https://zalo-article-photo.zadn.vn/3e0cb5d9d09239cc6083#240726366",
     title:
@@ -1688,13 +1661,13 @@ export const NewsListData = [
           Sơn, Mê Linh, Hoài Đức, Đan Phượng, Thanh Oai, Thường Tín và Hà
           Đông).
         </p>
-        <div class="next-post"></div>
+
       </article>
     </div>
     `,
   },
   {
-    id: 10,
+    _id: 10,
     name: "se-cap-phep-xay-dung-tai-khu-djo-thi-thanh-ha-djoi-voi-khu-djat-khong-co-vi-pham",
     img: "https://photo-cms-baophapluat.epicdn.me/w800/Uploaded/2022/athlrainaghat/2022_06_14/c97f2dca9e7ac58159769e161d14a29820220612115739-5957140-5082.jpg",
     title:
@@ -1768,13 +1741,13 @@ export const NewsListData = [
               bàn...
             </p>
 
-            <div class="next-post"></div>
+    
           </article>
         </div>
     `,
   },
   {
-    id: 11,
+    _id: 11,
     name: "yeu-cau-quy-iv2023-phai-hoan-thanh-giai-phong-mat-bang-duong-vanh-dai-4-vung-thu-do",
     img: "https://cdnmedia.baotintuc.vn/Upload/YZmStSDTjb0M07hFJ2gA/files/2022/07/31/vanh-dai-310722.jpg",
     title:
@@ -1911,13 +1884,13 @@ export const NewsListData = [
               thực hiện nhiệm vụ của chủ đầu tư trong việc xây dựng các khu tái
               định cư, bảo đảm tuân thủ quy định hiện hành.
             </p>
-            <div class="next-post"></div>
+    
           </article>
         </div>
     `,
   },
   {
-    id: 12,
+    _id: 12,
     name: "ky-ket-giao-uoc-thi-dua-thuc-hien-du-an-duong-vanh-dai-4-vung-thu-do-ha-noi",
     img: "https://cdnmedia.baotintuc.vn/Upload/rGkvwNpj74Z1EcpzQ6ltA/files/2022/09/tuan6/du-an-30922.jpg",
     title:
@@ -2097,13 +2070,13 @@ export const NewsListData = [
               mặt bằng và tái định cư Dự án đầu tư xây dựng đường Vành đai 4 -
               Vùng Thủ đô Hà Nội với các nội dung như trên.
             </p>
-            <div class="next-post"></div>
+    
           </article>
         </div>
         `,
   },
   {
-    id: 13,
+    _id: 13,
     name: "sau-ngay-30-11-2022-neu-doanh-nghiep-du-an-khong-co-phuong-an",
     img: "./assests/01-tb.jpg",
     title:
@@ -2135,28 +2108,16 @@ export const NewsListData = [
         <img src="./assests/02-tb.jpg" alt="tin-tuc" />
       </div>
 
-      <div class="next-post"></div>
     </article>
   </div>
         `,
   },
 ];
 
-export const Experience = [
-  "./assests/ex-1.jpg",
-  "./assests/ex-2.jpg",
-  "./assests/ex-9.jpg",
-  "./assests/ex-10.jpg",
-  "./assests/ex-4.jpg",
-  "./assests/ex-3.jpg",
-  "./assests/ex-5.jpg",
-  "./assests/ex-7.jpg",
-  "./assests/ex-6.jpg",
-];
-
+//---------------------------------------------------------------------------------
 export const ProjectData = [
   {
-    id: 1,
+    _id: 1,
     name: "tong-hop",
     img: "./assests/ban-do-gioi-thieu.jpg",
     title: "TỔNG HỢP MẶT BẰNG LIỀN KỀ & BIỆT THỰ THANH HÀ CIENCO 5",
@@ -2208,7 +2169,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 2,
+    _id: 2,
     name: "khu-b1.1",
     img: "./assests/30-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.1-LK10-11-12-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B1.1 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2338,7 +2299,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 3,
+    _id: 3,
     name: "khu-b1.2",
     img: "./assests/36-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.2-LK01-02-03-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B1.2 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2420,7 +2381,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 4,
+    _id: 4,
     name: "khu-b1.3",
     img: "./assests/37-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.3-BT01-BT02-LK16-17-18-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B1.3 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2544,7 +2505,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 5,
+    _id: 5,
     name: "khu-b1.4",
     img: "./assests/44-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B1.4-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B1.4 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2721,7 +2682,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 6,
+    _id: 6,
     name: "khu-b2.1",
     img: "./assests/b2.1 BT 1-2-3-4.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.1 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2850,7 +2811,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 7,
+    _id: 7,
     name: "khu-b2.2",
     img: "./assests/64-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.2-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.2 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -2950,7 +2911,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 8,
+    _id: 8,
     name: "khu-b2.3",
     img: "./assests/68-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.3-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.3 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -3037,7 +2998,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 9,
+    _id: 9,
     name: "khu-b2.4",
     img: "./assests/71-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.4-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.4 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -3114,7 +3075,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 10,
+    _id: 10,
     name: "khu-b2.5",
     img: "./assests/73-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.5-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B2.5 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -3187,7 +3148,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 11,
+    _id: 11,
     name: "khu-b3.1",
     img: "./assests/73-mat-bang-biet-thu-lien-ke-thanh-ha-khu-B2.5-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU B3.1 LIỀN KỀ BIỆT THỰ THANH HÀ MƯỜNG THANH",
@@ -3246,7 +3207,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 12,
+    _id: 12,
     name: "khu-a1.1",
     img: "./assests/01-mat-bang-biet-thu-lien-ke-thanh-ha-a1.1-bt01-bt02-lk01-lk02-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A1.1 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3338,7 +3299,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 13,
+    _id: 13,
     name: "khu-a1.2",
     img: "./assests/03-mat-bang-biet-thu-lien-ke-thanh-ha-a1.2-bt01-bt02-lk01-lk02-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A1.2 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3452,7 +3413,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 14,
+    _id: 14,
     name: "khu-a1.3",
     img: "./assests/08-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a1.3-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A1.3 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3562,7 +3523,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 15,
+    _id: 15,
     name: "khu-a2.2",
     img: "./assests/13-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.2-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.2 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3633,7 +3594,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 16,
+    _id: 16,
     name: "khu-a2.3",
     img: "./assests/15-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.3-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.3 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3740,7 +3701,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 17,
+    _id: 17,
     name: "khu-a2.4",
     img: "./assests/19-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.4-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.4 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3871,7 +3832,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 18,
+    _id: 18,
     name: "khu-a2.5",
     img: "./assests/25-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.5-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.5 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -3943,7 +3904,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 19,
+    _id: 19,
     name: "khu-a2.7",
     img: "./assests/27-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.7-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.7 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -4027,7 +3988,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 20,
+    _id: 20,
     name: "khu-a2.10",
     img: "./assests/29-mat-bang-biet-thu-lien-ke-thanh-ha-khu-a2.10-scaled.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A2.10 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",
@@ -4091,7 +4052,7 @@ export const ProjectData = [
     `,
   },
   {
-    id: 21,
+    _id: 21,
     name: "khu-a3.1",
     img: "./assests/30.1-so-do-khu-a3.1.jpg",
     title: "MẶT BẰNG SƠ ĐỒ KHU A3.1 LIỀN KỀ BIỆT THỰ THANH HÀ CIENCO 5",

@@ -1270,6 +1270,9 @@ button {
   color: #074971;
   cursor: pointer;
 }
+#news-item .news-content img {
+  width: 100%;
+}
 #news-item .news-content .img {
   width: 100%;
   margin-bottom: 30px;
@@ -1304,19 +1307,19 @@ button {
   padding: 3px 0;
   font-size: 0.875rem;
 }
-#news-item .news-content .next-post {
+#news-item .next-post {
   padding: 30px;
   border: 1px solid #f5a900;
 }
-#news-item .news-content .next-post i {
+#news-item .next-post i {
   margin-right: 10px;
   color: #f5a900;
 }
-#news-item .news-content .next-post a {
+#news-item .next-post a {
   padding: 20px 0;
   font-size: 1.125rem;
 }
-#news-item .news-content .next-post a:hover {
+#news-item .next-post a:hover {
   color: #f5a900;
 }
 

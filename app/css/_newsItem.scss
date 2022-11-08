@@ -51,6 +51,9 @@
         cursor: pointer;
       }
     }
+    img{
+      width: 100%;
+    }
     .img {
       width: 100%;
       margin-bottom: 30px;
@@ -85,20 +88,20 @@
         font-size: $font-sm;
       }
     }
-    .next-post {
-      padding: 30px;
-      border: 1px solid $yellow-color;
-      i {
-        margin-right: 10px;
-        color: $yellow-color;
-      }
-      a {
-        padding: 20px 0;
-        font-size: $font-med;
-      }
-      a:hover {
-        color: $yellow-color;
-      }
+  }
+  .next-post {
+    padding: 30px;
+    border: 1px solid $yellow-color;
+    i {
+      margin-right: 10px;
+      color: $yellow-color;
+    }
+    a {
+      padding: 20px 0;
+      font-size: $font-med;
+    }
+    a:hover {
+      color: $yellow-color;
     }
   }
 }

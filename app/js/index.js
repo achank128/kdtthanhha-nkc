@@ -30,32 +30,46 @@ formSub.addEventListener("submit", (e) => {
   });
 });
 
+const getNews = async () => {
+  try {
+    const res = await axios.get("https://kdtthanhha.herokuapp.com/api/news");
+    console.log(res.data);
+    NewsListData.push(...res.data);
+    console.log(NewsListData);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 const slider = document.querySelector(".slider");
 const swiperWrapper = slider.querySelector(".swiper-wrapper");
-swiperWrapper.innerHTML = NewsListData.reverse()
-  .map((newItem) => {
-    return `
-  <div class="swiper-slide">
-    <a
-      href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
-    >
-      <div class="new-img">
-        <img
-          src="${newItem.img}"
-          alt=""
-        />
-      </div>
-      <div class="title">
-        <h4>
-        ${newItem.title}
-        </h4>
-      </div>
-    </a>
-  </div>
-  `;
-  })
-  .join("");
-
+const setNews = async () => {
+  await getNews();
+  swiperWrapper.innerHTML = NewsListData.reverse()
+    .map((newItem) => {
+      return `
+    <div class="swiper-slide">
+      <a
+        href="./7-tip-dau-tu-bat-dong-san-khu-do-thi-thanh-ha-khong-lo.html"
+      >
+        <div class="new-img">
+          <img
+            src="${newItem.img}"
+            alt=""
+          />
+        </div>
+        <div class="title">
+          <h4>
+          ${newItem.title}
+          </h4>
+        </div>
+      </a>
+    </div>
+    `;
+    })
+    .join("");
+};
+setNews();
 const NewSlide = new Swiper(".swiperNews", {
   slidesPerView: 1,
   spaceBetween: 30,
