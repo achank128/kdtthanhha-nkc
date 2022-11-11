@@ -1,0 +1,104 @@
+#product {
+  display: flex;
+  padding: 20px 0;
+  margin-bottom: 50px;
+  .product-head-title {
+    color: $blue-color;
+    margin-bottom: 20px;
+  }
+  .product-content {
+    margin-bottom: 50px;
+    .product-list {
+      padding-bottom: 40px;
+      border-bottom: 2px solid $blue-color;
+    }
+    .product-item {
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+      border: 1px solid transparent;
+      border-bottom: 1px solid $blue-color;
+      margin-bottom: 30px;
+      @include mobile {
+        flex-direction: column;
+        }
+      &:hover{
+        border: 1px solid $blue-color;
+      }
+      .img {
+        max-height: 200px;
+      }
+      .content{
+        .name{
+          font-size: $font-med;
+          margin-bottom: 16px;
+          color: $blue-color;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+        .desc{
+          display: flex;
+          gap: 20px;
+          li{
+            font-size: $font-med;
+            @include mobile {
+              font-size: $font-sm;
+            }
+            list-style: none;
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.extend-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  @include mobile {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e5f7f8;
+    border: 1px dashed $blue-color;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px 10px;
+    .intro-title {
+      font-size: $font-med;
+      font-weight: 500;
+      color: $blue-color;
+      margin-bottom: 16px;
+    }
+    .hotline-intro {
+      color: $red-color;
+      font-weight: 500;
+    }
+  }
+  .map {
+    background-color: #e5f7f8;
+    border: 1px dashed $blue-color;
+    border-radius: 4px;
+
+    .map-title {
+      font-size: $font-lg;
+      color: $blue-color;
+      padding: 10px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 10px;
+      i {
+        margin-right: 6px;
+      }
+    }
+    .google-map {
+      width: 100%;
+    }
+  }
+}

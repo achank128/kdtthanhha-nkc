@@ -1,5 +1,10 @@
 import { Experience, NewsListData } from "./data.js";
 
+const formSub = document.getElementById("form-subscribe");
+const name = document.getElementById("name");
+const phone = document.getElementById("phone");
+const type = formSub.querySelector('input[name="type"]:checked');
+
 const createUser = async (data) => {
   const btn = document.querySelector(".btn-sub");
   btn.setAttribute("disabled", true);
@@ -15,14 +20,11 @@ const createUser = async (data) => {
   }
   btn.style.opacity = "1";
   btn.removeAttribute("disabled");
+  name.value = "";
+  phone.value = "";
 };
-
-const formSub = document.getElementById("form-subscribe");
 formSub.addEventListener("submit", (e) => {
   e.preventDefault();
-  const name = document.getElementById("name");
-  const phone = document.getElementById("phone");
-  const type = formSub.querySelector('input[name="type"]:checked');
   createUser({
     name: name?.value,
     phone: phone?.value,
@@ -33,9 +35,7 @@ formSub.addEventListener("submit", (e) => {
 const getNews = async () => {
   try {
     const res = await axios.get("https://kdtthanhha.herokuapp.com/api/news");
-    console.log(res.data);
     NewsListData.push(...res.data);
-    console.log(NewsListData);
   } catch (error) {
     console.log(error);
   }

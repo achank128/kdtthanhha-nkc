@@ -1502,4 +1502,112 @@ button {
 }
 #project .project-content .project-list .project-content-item:hover span {
   background-color: #f5a900;
+}
+
+#product {
+  display: flex;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+#product .product-head-title {
+  color: #074971;
+  margin-bottom: 20px;
+}
+#product .product-content {
+  margin-bottom: 50px;
+}
+#product .product-content .product-list {
+  padding-bottom: 40px;
+  border-bottom: 2px solid #074971;
+}
+#product .product-content .product-item {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #074971;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  #product .product-content .product-item {
+    flex-direction: column;
+  }
+}
+#product .product-content .product-item:hover {
+  border: 1px solid #074971;
+}
+#product .product-content .product-item .img {
+  max-height: 200px;
+}
+#product .product-content .product-item .content .name {
+  font-size: 1.125rem;
+  margin-bottom: 16px;
+  color: #074971;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#product .product-content .product-item .content .desc {
+  display: flex;
+  gap: 20px;
+}
+#product .product-content .product-item .content .desc li {
+  font-size: 1.125rem;
+  list-style: none;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 600px) {
+  #product .product-content .product-item .content .desc li {
+    font-size: 0.875rem;
+  }
+}
+
+.extend-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+@media only screen and (max-width: 600px) {
+  .extend-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+.extend-content .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e5f7f8;
+  border: 1px dashed #074971;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px 10px;
+}
+.extend-content .intro .intro-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #074971;
+  margin-bottom: 16px;
+}
+.extend-content .intro .hotline-intro {
+  color: #ff0000;
+  font-weight: 500;
+}
+.extend-content .map {
+  background-color: #e5f7f8;
+  border: 1px dashed #074971;
+  border-radius: 4px;
+}
+.extend-content .map .map-title {
+  font-size: 1.375rem;
+  color: #074971;
+  padding: 10px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.extend-content .map .map-title i {
+  margin-right: 6px;
+}
+.extend-content .map .google-map {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
