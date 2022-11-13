@@ -1,3 +1,4 @@
+export const API_URL = "https://kdtthanhha.onrender.com/api";
 export const ZALO = "https://zalo.me/562398999";
 export const FACEBOOK = `https://www.facebook.com/profile.php?id=100064734504163`;
 export const PHONE = "0562.398.999";

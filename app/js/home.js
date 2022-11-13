@@ -1,4 +1,4 @@
-import { Experience, NewsListData } from "./data.js";
+import { API_URL, Experience, NewsListData } from "./data.js";
 
 const formSub = document.getElementById("form-subscribe");
 const name = document.getElementById("name");
@@ -10,10 +10,7 @@ const createUser = async (data) => {
   btn.setAttribute("disabled", true);
   btn.style.opacity = "0.8";
   try {
-    const res = await axios.post(
-      "https://kdtthanhha.herokuapp.com/api/users",
-      data
-    );
+    const res = await axios.post(API_URL + "/users", data);
     console.log(res.data);
   } catch (error) {
     console.log(error);
@@ -34,7 +31,7 @@ formSub.addEventListener("submit", (e) => {
 
 const getNews = async () => {
   try {
-    const res = await axios.get("https://kdtthanhha.herokuapp.com/api/news");
+    const res = await axios.get(API_URL + "/news");
     NewsListData.push(...res.data);
   } catch (error) {
     console.log(error);

@@ -1,8 +1,8 @@
+import { API_URL } from "./data.js";
+
 const getProduct = async () => {
   try {
-    const res = await axios.get(
-      "https://kdtthanhha.herokuapp.com/api/products"
-    );
+    const res = await axios.get(API_URL + "/products");
     return res.data;
   } catch (error) {
     console.log(error);

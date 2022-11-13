@@ -1,8 +1,8 @@
-import { NewsListData } from "./data.js";
+import { NewsListData, API_URL } from "./data.js";
 
 const getNews = async () => {
   try {
-    const res = await axios.get("https://kdtthanhha.herokuapp.com/api/news");
+    const res = await axios.get(API_URL + "/news");
     console.log(res.data);
     NewsListData.push(...res.data);
     console.log(NewsListData);
