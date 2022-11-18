@@ -1539,6 +1539,7 @@ button {
 #product .product-content .product-item .img {
   max-height: 200px;
   width: 200px;
+  overflow: hidden;
 }
 #product .product-content .product-item .img img {
   width: 100%;
